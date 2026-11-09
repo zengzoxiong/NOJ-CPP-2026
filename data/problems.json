@@ -1149,7 +1149,7 @@
     "filename": "T074.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "比热容（Specific heat capacity，符号c，https://en.wikipedia.org/wiki/Specific_heat_capacity），简称比热，亦称比热容量，是热力学中常用的一个物理量，表示物体吸热或散热能力，它指单位质量的某种物质升高或下降单位温度所吸收或放出的热量。其国际单位是焦耳每千克开尔文[J/(kg·K)]，即令1公斤物质的温度上升1开尔文所需的能量。有以下公式：\n\n$$\n\\begin{flalign}\n&c=\\frac {Q}{m \\Delta T}&&\\\\\n\\end{flalign}\n$$\n\n其中$Q$是能量，单位是焦耳（J）。$m$是质量，单位是千克（kg）。$\\Delta T$是温度变化，单位是开尔文（K）。当比热容越大时，该物质便需要更多热能来加热。\n下面是常见物质的比热容数据。\n\n![8001080008.jpg](images/8001080008.jpg)\n\n如果使用M千克的某种材质的容器，将F千克的某液体从温度Ti加热到Tf，编程计算需要多少热能，用于容器和液体的热能百分比分别是多少。",
+    "description": "比热容（Specific heat capacity，符号c，https://en.wikipedia.org/wiki/Specific_heat_capacity），简称比热，亦称比热容量，是热力学中常用的一个物理量，表示物体吸热或散热能力，它指单位质量的某种物质升高或下降单位温度所吸收或放出的热量。其国际单位是焦耳每千克开尔文[J/(kg·K)]，即令1公斤物质的温度上升1开尔文所需的能量。有以下公式：\n\n$$\nc=\\frac{Q}{m\\Delta T}\n$$\n\n其中$Q$是能量，单位是焦耳（J）。$m$是质量，单位是千克（kg）。$\\Delta T$是温度变化，单位是开尔文（K）。当比热容越大时，该物质便需要更多热能来加热。\n下面是常见物质的比热容数据。\n\n![8001080008.jpg](images/8001080008.jpg)\n\n如果使用M千克的某种材质的容器，将F千克的某液体从温度Ti加热到Tf，编程计算需要多少热能，用于容器和液体的热能百分比分别是多少。",
     "input": "第一行里输入两个数Ti、Tf，用空格间隔，表示初始温度、加热温度。\n第二行里输入两个数m、c，用空格间隔，表示液体的质量、比热容。\n第三行里输入两个数m、c，用空格间隔，表示容器的质量、比热容。\n输入数据保证有意义。\n样例数据的生活实际就是：炉子上0.5kg的铝锅中的0.25kg的水从20℃加热到80℃。",
     "output": "输出需要多少热能（kJ，千焦耳）、容器热能百分比、液体热能百分比，用逗号间隔，保留小数点两位。",
     "sampleinput": "20 80\n0.250 4186\n0.500 900",
@@ -1335,8 +1335,8 @@
     "filename": "T086.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "一家新开的游乐园吸引了大家的兴趣，纷纷做起了旅游的“功课”。\n该游乐园里面有$N$个景点，标记为$1$到$N$，有$M$条路，标记为$1$到$M$。第$i$条路连接景点$A_i$和$B_i$，双向且长度为$C_i$。\n从选择的景点出发，要求不经过重复景点的情况下到达另一个景点，求出走过道路的最大总长度。注意：\n$$\n\\begin{flalign}\n&\\bullet 2\\leqslant N \\leqslant 10&&\\\\\n&\\bullet 1\\leqslant M \\leqslant {N(N-1) \\over 2} &&\\\\\n&\\bullet 1\\leqslant A_i < B_i \\leqslant N&&\\\\\n&\\bullet 1\\leqslant C_i \\leqslant 10^8&&\\\\\n\\end{flalign}\n$$",
-    "input": "所有数据都是整数，输入格式如下，用空格间隔：\n$$\n\\begin{flalign}\n&\\begin{matrix}\nN & M\\\\\nA_1 & B_1 & C_1 \\\\\n\\vdots & \\vdots & \\vdots \\\\\nA_M & B_M & C_M \\\\\n\\end{matrix}&&\\\\\n\\end{flalign}\n$$",
+    "description": "一家新开的游乐园吸引了大家的兴趣，纷纷做起了旅游的“功课”。\n该游乐园里面有$N$个景点，标记为$1$到$N$，有$M$条路，标记为$1$到$M$。第$i$条路连接景点$A_i$和$B_i$，双向且长度为$C_i$。\n从选择的景点出发，要求不经过重复景点的情况下到达另一个景点，求出走过道路的最大总长度。注意：\n\n$$\n\\begin{aligned}\n&2\\leqslant N \\leqslant 10\\\\\n&1\\leqslant M \\leqslant {N(N-1) \\over 2}\\\\\n&1\\leqslant A_i < B_i \\leqslant N\\\\\n&1\\leqslant C_i \\leqslant 10^8\n\\end{aligned}\n$$",
+    "input": "所有数据都是整数，输入格式如下，用空格间隔：\n\n$$\n\\begin{matrix}\nN & M\\\\\nA_1 & B_1 & C_1 \\\\\n\\vdots & \\vdots & \\vdots \\\\\nA_M & B_M & C_M\n\\end{matrix}\n$$",
     "output": "输出结果。样例图示如下：\n\n![8001090008.jpg](images/8001090008.jpg)\n\n如果从4开始，按4→1→3→2的路线，此时走路的长度1110最大。",
     "sampleinput": "4 4\n1 2 1\n2 3 10\n1 3 100\n1 4 1000",
     "sampleoutput": "1110",
@@ -1457,7 +1457,7 @@
     "filename": "T094.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "马赫数定义为：$M={\\nu \\over c}$，其中$M$是马赫数，为无量纲量，$\\nu$是飞行速度，$c$是飞行器所在位置的音速（单位m/s）。声音在不同的介质中以不同的速度传播，如果知道空气温度（单位$^\\circ C$），可以由声速公式给出：$c=331.3\\sqrt{1+{T \\over 273.15}}$。飞行的马赫数可分为如下四类：\n（1）亚音速（subsonic）：小于0.8\n（2）跨音速（transonic）：0.8~1.2\n（3）超音速（supersonic）：1.2~5.0\n（4）高超音速（hypersonic）：5.0~10.0\n在跨音速时，飞机周围的局部气压下降，气温也会下降，如果温度低于饱和温度，就会形成凝结水云，不断堆积形成圆锥般的云雾，这种现象称为蒸汽锥（Vapor cone）或激波项圈（Shock collar）。下面是歼20的飞行视频。\n\n> 视频 `MachJ20ZHUHAIAIRSHOW.mp4`：平台服务器未提供该文件，此处仅保留引用名。",
+    "description": "马赫数定义为：$M={\\nu \\over c}$，其中$M$是马赫数，为无量纲量，$\\nu$是飞行速度，$c$是飞行器所在位置的音速（单位m/s）。声音在不同的介质中以不同的速度传播，如果知道空气温度（单位$^\\circ C$），可以由声速公式给出：$c=331.3\\sqrt{1+{T \\over 273.15}}$。飞行的马赫数可分为如下四类：\n（1）亚音速（subsonic）：小于0.8\n（2）跨音速（transonic）：0.8~1.2\n（3）超音速（supersonic）：1.2~5.0\n（4）高超音速（hypersonic）：5.0~10.0\n在跨音速时，飞机周围的局部气压下降，气温也会下降，如果温度低于饱和温度，就会形成凝结水云，不断堆积形成圆锥般的云雾，这种现象称为蒸汽锥（Vapor cone）或激波项圈（Shock collar）。下面是歼20的飞行视频。\n\n[![珠海航展2022 雨天的视觉效果爆炸 J-20周身大片凝结云](videos/MachJ20ZHUHAIAIRSHOW.jpg)](https://www.bilibili.com/video/BV1h84y1v7JD)\n\n视频：珠海航展2022 雨天的视觉效果爆炸 J-20周身大片凝结云 ｜ 天宫空间站 ｜ 1:02 ｜ 平台原文件名为人工重命名，未找到可确认的原始出处；此处为同主题公开替代来源。",
     "input": "在一行里输入速度V（单位km/h）、温度T，用空格间隔。输入数据保证有意义。根据飞行器高度，可以查表得出温度T。\n样例的实际情况是C919民航飞机巡航速度为920km/h，当巡航高度为10000米，对应温度为-49.90摄氏度，其马赫数为0.853，跨音速。",
     "output": "输出马赫数和分类英文单词（全是小写），马赫数小数点保留3位，用一个空格间隔。",
     "sampleinput": "920 -49.90",
@@ -1466,6 +1466,17 @@
     "source": "https://en.wikipedia.org/wiki/Mach_number\nhttps://zh.wikipedia.org/zh-cn/马赫\nMach Number\nhttps://www.grc.nasa.gov/www/k-12/airplane/mach.html\nMach Number Calculator\nhttps://www.omnicalculator.com/physics/mach-number",
     "videos": [
       "MachJ20ZHUHAIAIRSHOW.mp4"
+    ],
+    "videoSources": [
+      {
+        "file": "MachJ20ZHUHAIAIRSHOW.mp4",
+        "url": "https://www.bilibili.com/video/BV1h84y1v7JD",
+        "title": "珠海航展2022 雨天的视觉效果爆炸 J-20周身大片凝结云",
+        "author": "天宫空间站",
+        "duration": "1:02",
+        "language": "zh",
+        "note": "平台原文件名为人工重命名，未找到可确认的原始出处；此处为同主题公开替代来源。"
+      }
     ]
   },
   {
@@ -1488,7 +1499,7 @@
     "filename": "T096.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "如下是阿克曼（Ackermann）函数公式：\n$$\n\\begin{flalign}\n&A(0,n)=n+1 &&\\\\\n&A(m+1,0)=A(m,1) &&\\\\\n&A(m+1,n+1)=A(m,A(m+1,n)) &&\\\\\n\\end{flalign}\n$$",
+    "description": "如下是阿克曼（Ackermann）函数公式：\n\n$$\n\\begin{aligned}\nA(0,n)&=n+1\\\\\nA(m+1,0)&=A(m,1)\\\\\nA(m+1,n+1)&=A(m,A(m+1,n))\n\\end{aligned}\n$$",
     "input": "在一行里输入两个正整数m、n，用空格间隔。输入数据保证有意义。",
     "output": "输出阿克曼函数的计算结果。",
     "sampleinput": "2 3",
@@ -1516,7 +1527,7 @@
     "filename": "T098.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "在相同的温度和压力下，气体的扩散速度与其密度或分子量的平方根成反比，称为格拉罕姆定律（Graham's Law），公式如下：\n$$\n\\begin{flalign}\n&{Rate_{1} \\over Rate_{2}}=\\sqrt{M_{2} \\over M_{1}} &&\\\\\n\\end{flalign}\n$$\n这里的$Rate_{1}$和$Rate_{2}$分别是第一种和第二种气体的扩散速度，单位是多少体积或多少摩尔数/单位时间，$M_{1}$和$M_{2}$分别是两种气体的分子量。\n\n可以用气体扩散方法分离同位素：天然的铀元素中只含0.72%的$^{235}U$和99.28%的$^{238}U$，将$^{235}U$和$^{238}U$与氟反应生成$^{235}UF_{6}$和$^{238}UF_{6}$，并加热成气态，然后通过多孔板，尽管$^{235}UF_{6}$的扩散速率仅仅是$^{238}UF_{6}$的1.004倍，但经过多个多孔挡板之后，$^{235}UF_{6}$就会走在最前面，富集之后就是浓缩铀，可用于反应堆（含3%的$^{235}U$）和制造核潜艇的燃料（含20%的$^{235}U$)。\n样例反映的正是实际情况：$^{235}UF_{6}$是349.03g/mol，$^{238}UF_{6}$是352.04g/mol，则$^{235}UF_{6}$与$^{238}UF_{6}$的扩散速率比为1.0043。\n\n> 视频 `EffusionandGrahamsLaw.mp4`：平台服务器未提供该文件，此处仅保留引用名。",
+    "description": "在相同的温度和压力下，气体的扩散速度与其密度或分子量的平方根成反比，称为格拉罕姆定律（Graham's Law），公式如下：\n\n$$\n{Rate_{1} \\over Rate_{2}}=\\sqrt{M_{2} \\over M_{1}}\n$$\n\n这里的$Rate_{1}$和$Rate_{2}$分别是第一种和第二种气体的扩散速度，单位是多少体积或多少摩尔数/单位时间，$M_{1}$和$M_{2}$分别是两种气体的分子量。\n\n可以用气体扩散方法分离同位素：天然的铀元素中只含0.72%的$^{235}U$和99.28%的$^{238}U$，将$^{235}U$和$^{238}U$与氟反应生成$^{235}UF_{6}$和$^{238}UF_{6}$，并加热成气态，然后通过多孔板，尽管$^{235}UF_{6}$的扩散速率仅仅是$^{238}UF_{6}$的1.004倍，但经过多个多孔挡板之后，$^{235}UF_{6}$就会走在最前面，富集之后就是浓缩铀，可用于反应堆（含3%的$^{235}U$）和制造核潜艇的燃料（含20%的$^{235}U$)。\n样例反映的正是实际情况：$^{235}UF_{6}$是349.03g/mol，$^{238}UF_{6}$是352.04g/mol，则$^{235}UF_{6}$与$^{238}UF_{6}$的扩散速率比为1.0043。\n\n[![C7 Effusion, Diffusion and Grahams Law (HL IB Chemistry)](videos/EffusionandGrahamsLaw.jpg)](https://www.youtube.com/watch?v=JOOJ3MyHogE)\n\n视频：C7 Effusion, Diffusion and Grahams Law [HL IB Chemistry] ｜ Richard Thornley ｜ 4:41 ｜ 题面来源字段已注明该视频，标题与文件名一致，为原始出处。",
     "input": "在一行里输入第一种、第二种气体的分子量（单位g/mol），用空格间隔。输入数据保证有意义。",
     "output": "输出第一种、第二种气体的扩散速率比，保留四位小数。",
     "sampleinput": "349.03 352.04",
@@ -1525,6 +1536,17 @@
     "source": "计算\n2.9: Graham's Laws of Diffusion and Effusion\nhttps://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/02%3A_Properties_of_Gases/2.09%3A_Graham's_Laws_of_Diffusion_and_Effusion\nhttps://www.vedantu.com/chemistry/grahams-law\n视频\nC7 Effusion, Diffusion and Grahams Law [HL IB Chemistry]\nhttps://www.youtube.com/watch?app=desktop&v=JOOJ3MyHogE\nGraham's law\nhttps://en.wikipedia.org/wiki/Graham%27s_law\n格锐目定律\nhttps://zh.wikipedia.org/zh-cn/格锐目定律\n液体泄漏蒸发量及发生爆炸所需时间的计算\nhttp://www.njjiantian.com/evaporation-of-liquid-leakage-and-explosion-of-computing-time-required.html\n气体扩散定律\nhttps://localsite.baidu.com/okam/pages/article/index?categoryLv1=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&ch=54&srcid=10004&strategyId=141035721449182&source=natural",
     "videos": [
       "EffusionandGrahamsLaw.mp4"
+    ],
+    "videoSources": [
+      {
+        "file": "EffusionandGrahamsLaw.mp4",
+        "url": "https://www.youtube.com/watch?v=JOOJ3MyHogE",
+        "title": "C7 Effusion, Diffusion and Grahams Law [HL IB Chemistry]",
+        "author": "Richard Thornley",
+        "duration": "4:41",
+        "language": "en",
+        "note": "题面来源字段已注明该视频，标题与文件名一致，为原始出处。"
+      }
     ]
   },
   {
@@ -1533,7 +1555,7 @@
     "filename": "T099.cpp",
     "timelimit": "1000ms",
     "memorylimit": "10000KB",
-    "description": "作为一个数学常数，π，数千年来数学家们一直试图高精度计算它的值，其计算历经了古代、多边形逼近、无限序列、计算机时代。公元纪年之前π的近似值精确到小数点后两位，到了第一个千年中期，中国数学家精确到小数点后七位，此后直到中世纪晚期才取得进一步进展。微积分的发明很快导致了数百位π的计算，进入20世纪和21世纪，数学家和计算机科学家一直在寻求新的方法，这些方法与不断增长的计算能力相结合，将π的十进制表示扩展到数万亿位数字。下面是π的莱布尼茨公式\n$$\n\\begin{flalign}\n&{\\pi \\over 4}=1-{1 \\over 3}+{1 \\over 5}-{1 \\over 7}+{1 \\over 9}-\\cdots &&\\\\\n\\end{flalign}\n$$\n它收敛得相当慢，在经过500000项后，只产生了π的五个十进制数字。比它收敛得更快的一个π无穷级数如下：\n$$\n\\begin{flalign}\n&{\\pi}=3+{4 \\over {2 \\times 3 \\times 4}}-{4 \\over {4 \\times 5 \\times 6}}+{4 \\over {6 \\times 7 \\times 8}}-{4 \\over {8 \\times 9 \\times 10}}+\\cdots &&\\\\\n\\end{flalign}\n$$\n它的第1项为3，第2项为3.1666$\\cdots$，第2项为3.1333$\\cdots$，第4项为3.1452$\\cdots$，等等。",
+    "description": "作为一个数学常数，π，数千年来数学家们一直试图高精度计算它的值，其计算历经了古代、多边形逼近、无限序列、计算机时代。公元纪年之前π的近似值精确到小数点后两位，到了第一个千年中期，中国数学家精确到小数点后七位，此后直到中世纪晚期才取得进一步进展。微积分的发明很快导致了数百位π的计算，进入20世纪和21世纪，数学家和计算机科学家一直在寻求新的方法，这些方法与不断增长的计算能力相结合，将π的十进制表示扩展到数万亿位数字。下面是π的莱布尼茨公式\n\n$$\n{\\pi \\over 4}=1-{1 \\over 3}+{1 \\over 5}-{1 \\over 7}+{1 \\over 9}-\\cdots\n$$\n\n它收敛得相当慢，在经过500000项后，只产生了π的五个十进制数字。比它收敛得更快的一个π无穷级数如下：\n\n$$\n{\\pi}=3+{4 \\over {2 \\times 3 \\times 4}}-{4 \\over {4 \\times 5 \\times 6}}+{4 \\over {6 \\times 7 \\times 8}}-{4 \\over {8 \\times 9 \\times 10}}+\\cdots\n$$\n\n它的第1项为3，第2项为3.1666$\\cdots$，第2项为3.1333$\\cdots$，第4项为3.1452$\\cdots$，等等。",
     "input": "在一行里输入正整数n（$1 \\leqslant n \\leqslant 10^9$）。",
     "output": "输出π无穷级数n项时的值，小数点保留七位。",
     "sampleinput": "100",

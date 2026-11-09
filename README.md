@@ -9,6 +9,7 @@
 | `data/problems.json` | 结构化数据，唯一数据源，100 条记录 |
 | `problems/NNN-*.md` | 每题一篇 Markdown，供直接阅读 |
 | `data/images/` | 题目配图，共 62 张 |
+| `data/videos/` | 视频及封面帧，共 2 段 |
 
 ## 字段说明
 
@@ -24,9 +25,23 @@
 | `hint` | 提示，本题库全部为空 |
 | `source` | 题目来源或参考资料链接 |
 | `images` | 配图文件名，对应 `data/images/` |
-| `videos` | 视频文件名，仅记录引用，平台已无该文件 |
+| `videos` | 视频文件名，对应 `data/videos/` |
+| `videoSources` | 视频的公开来源信息（标题、作者、时长、URL） |
 
 JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按平台原生版式展示，只呈现标题、时限内存、Description、Input、Output、Sample Input、Sample Output 七项。
+
+## 视频来源
+
+平台服务器上原本引用的两段 mp4 已返回 404，现已从公开来源找回并归档：
+
+| 题号 | 文件 | 来源 | 说明 |
+| --- | --- | --- | --- |
+| 098 | `EffusionandGrahamsLaw.mp4` | [C7 Effusion, Diffusion and Grahams Law](https://www.youtube.com/watch?v=JOOJ3MyHogE) ｜ Richard Thornley | 题面来源字段已注明该视频，标题与文件名一致 |
+| 094 | `MachJ20ZHUHAIAIRSHOW.mp4` | [珠海航展2022 J-20周身大片凝结云](https://www.bilibili.com/video/BV1h84y1v7JD) ｜ 天宫空间站 | 平台原文件名为人工重命名，未找到可确认的原始出处，此处为同主题公开替代来源 |
+
+## 公式渲染
+
+题面中的 LaTeX 公式按 GitHub MathJax 语法书写：行内用 `$...$`，块级用 `$$` 独占一行并在前后留空行。原平台使用的 `flalign` 环境 MathJax 不支持，已改写为 `aligned`、`align`、`matrix` 等兼容写法。
 
 ## 题目索引
 
