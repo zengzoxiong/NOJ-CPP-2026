@@ -12,18 +12,13 @@
     "sampleoutput": "Hello World",
     "hint": "",
     "source": "jxf",
-    "testcases": {
-      "count": 1,
-      "note": "本题无输入，只有一个测试点。",
-      "cases": [
-        {
-          "no": 1,
-          "input": null,
-          "output": "Hello World",
-          "desc": "无输入，直接输出固定字符串。"
-        }
-      ]
-    }
+    "testcases": [
+      {
+        "no": 1,
+        "input": null,
+        "output": "Hello World"
+      }
+    ]
   },
   {
     "no": "002",
@@ -38,24 +33,18 @@
     "sampleoutput": "7",
     "hint": "",
     "source": "jxf",
-    "testcases": {
-      "count": 2,
-      "note": "经黑盒探测确认共 2 个测试点，均为简单整数加法。",
-      "cases": [
-        {
-          "no": 1,
-          "input": "3 4",
-          "output": "7",
-          "desc": "正整数相加。"
-        },
-        {
-          "no": 2,
-          "input": "-1 -2",
-          "output": "-3",
-          "desc": "负数相加。"
-        }
-      ]
-    }
+    "testcases": [
+      {
+        "no": 1,
+        "input": "3 4",
+        "output": "7"
+      },
+      {
+        "no": 2,
+        "input": "-1 -2",
+        "output": "-3"
+      }
+    ]
   },
   {
     "no": "003",
@@ -875,30 +864,23 @@
     "sampleoutput": "nwpufornwpu nwpu for nwpu",
     "hint": "",
     "source": "https://prepinsta.com/c-program/to-replace-a-substring-in-a-string/\nhttps://www.geeksforgeeks.org/c-program-replace-word-text-another-given-word/\nhttps://stackoverflow.com/questions/779875/what-function-is-to-replace-a-substring-from-a-string-in-c",
-    "testcases": {
-      "count": 3,
-      "note": "经黑盒探测确认共 3 组测试数据，按判题机执行顺序排列。",
-      "cases": [
-        {
-          "no": 1,
-          "input": "xxforxx xx for xx\nxx\nnwpu",
-          "output": "nwpufornwpu nwpu for nwpu",
-          "desc": "样例，标准非重叠替换语义。"
-        },
-        {
-          "no": 2,
-          "input": "x xforx x x x for x x\nx x\nn p u",
-          "output": "n p u forn p u  n p u  for n p u",
-          "desc": "特殊点，期望输出与标准替换结果相差 3 个空格，无统一规律可循。"
-        },
-        {
-          "no": 3,
-          "input": "xxforxx xx for xx\nnwpu\nxx",
-          "output": "xxforxx xx for xx",
-          "desc": "str 中不含 olds，不发生替换，原样输出。"
-        }
-      ]
-    }
+    "testcases": [
+      {
+        "no": 1,
+        "input": "xxforxx xx for xx\nxx\nnwpu",
+        "output": "nwpufornwpu nwpu for nwpu"
+      },
+      {
+        "no": 2,
+        "input": "x xforx x x x for x x\nx x\nn p u",
+        "output": "n p u forn p u  n p u  for n p u"
+      },
+      {
+        "no": 3,
+        "input": "xxforxx xx for xx\nnwpu\nxx",
+        "output": "xxforxx xx for xx"
+      }
+    ]
   },
   {
     "no": "052",
