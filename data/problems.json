@@ -389,7 +389,10 @@
     "sampleoutput": "11 3\n5 6\n2 12\n1 24\n33",
     "hint": "",
     "source": "https://en.wikipedia.org/wiki/Multiplication_algorithm",
-    "testcases": null
+    "testcases": null,
+    "images": [
+      "8001030002.jpg"
+    ]
   },
   {
     "no": "025",
