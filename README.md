@@ -26,6 +26,8 @@
 | `images` | 配图文件名，对应 `data/images/` |
 | `videos` | 视频文件名，仅记录引用，平台已无该文件 |
 
+JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按平台原生版式展示，只呈现标题、时限内存、Description、Input、Output、Sample Input、Sample Output 七项。
+
 ## 题目索引
 
 | 题号 | 标题 | 时限 | 配图 |

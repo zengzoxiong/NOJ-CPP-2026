@@ -1,16 +1,8 @@
----
-no: "053"
-title: "AtoI转换"
-filename: T053.cpp
-timelimit: 1000ms
-memorylimit: 10000KB
----
-
 # 053 AtoI转换
 
-> 提交文件名：`T053.cpp` ｜ 时限 1000ms ｜ 内存 10000KB
+Time Limit: 1000ms , Memory Limit: 10000KB
 
-## 题目描述
+## Description
 
 编写一个函数int AtoI(string s);将字符串str转换为32位有符号整数返回（类似于C/C++的atoi函数）。
 其功能是：
@@ -20,28 +12,22 @@ memorylimit: 10000KB
 （4）将这些数字转换为整数（即"123" -> 123?? , "0032" -> 32）。如果没有读取到任何数字，则整数为0。例如“Hello”结果为0。
 （5）如果该整数超出32位有符号整数范围，则限制该整数使其保持在范围内。简单说，小于-2^31的整数应限制为-2^31，大于(2^31)-1的整数应限制为(2^31)-1。例如“-91283472332”结果为-2147483648，“91283472332”结果为2147483647。
 
-## 输入
+## Input
 
 在一行里输入一个字符串str。输入数据保证有意义。
 
-## 输出
+## Output
 
 输出str转换成整数的结果。
 
-## 样例
-
-**输入**
+## Sample Input
 
 ```
 -123x+123
 ```
 
-**输出**
+## Sample Output
 
 ```
 -123
 ```
-
-## 来源
-
-https://leetcode.com/problems/string-to-integer-atoi/description/
