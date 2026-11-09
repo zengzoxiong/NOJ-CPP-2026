@@ -24,12 +24,25 @@
 | `hint` | 提示，本题库全部为空 |
 | `source` | 题目来源或参考资料链接 |
 | `images` | 配图文件名，对应 `data/images/` |
+| `testcases` | 测试点数据（组数、输入、期望输出），未探测的题为 `null` |
 
-JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按平台原生版式展示，只呈现标题、时限内存、Description、Input、Output、Sample Input、Sample Output 七项。
+JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按平台原生版式展示，正文呈现标题、时限内存、Description、Input、Output、Sample Input、Sample Output 七项，末尾以两条 `---` 分隔，其下为测试点章节。
 
 ## 视频说明
 
 原平台题面中 094 马赫数、098 气体扩散 两题各引用了一段 mp4，服务器上这些文件已返回 404，本库不收录视频。094 正文中"下面是歼20的飞行视频"一句为原题面原文，予以保留；098 的原始出处为 YouTube 视频 [C7 Effusion, Diffusion and Grahams Law](https://www.youtube.com/watch?v=JOOJ3MyHogE)，可自行查阅。
+
+## 测试点
+
+每题 Markdown 末尾以两条 `---` 与正文完全分隔，其下为测试点章节。
+
+| 题号 | 组数 | 状态 |
+| --- | --- | --- |
+| 001 Hello World | 1 | 已确认，无输入 |
+| 002 A+B | 2 | 已确认，`3 4` → `7`、`-1 -2` → `-3` |
+| 051 字符串替换 | 3 | 已确认，含一组期望输出与标准语义不符的特殊点 |
+
+其余 97 题标记为"待探测"。
 
 ## 公式渲染
 

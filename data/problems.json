@@ -11,7 +11,19 @@
     "sampleinput": "",
     "sampleoutput": "Hello World",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": {
+      "count": 1,
+      "note": "本题无输入，只有一个测试点。",
+      "cases": [
+        {
+          "no": 1,
+          "input": null,
+          "output": "Hello World",
+          "desc": "无输入，直接输出固定字符串。"
+        }
+      ]
+    }
   },
   {
     "no": "002",
@@ -25,7 +37,25 @@
     "sampleinput": "3 4",
     "sampleoutput": "7",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": {
+      "count": 2,
+      "note": "经黑盒探测确认共 2 个测试点，均为简单整数加法。",
+      "cases": [
+        {
+          "no": 1,
+          "input": "3 4",
+          "output": "7",
+          "desc": "正整数相加。"
+        },
+        {
+          "no": 2,
+          "input": "-1 -2",
+          "output": "-3",
+          "desc": "负数相加。"
+        }
+      ]
+    }
   },
   {
     "no": "003",
@@ -42,7 +72,8 @@
     "source": "jxf",
     "images": [
       "8001010003.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "004",
@@ -56,7 +87,8 @@
     "sampleinput": "3 4",
     "sampleoutput": "3",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "005",
@@ -70,7 +102,8 @@
     "sampleinput": "10",
     "sampleoutput": "A,12",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "006",
@@ -84,7 +117,8 @@
     "sampleinput": "12345567.891234567",
     "sampleoutput": "12345567.891235,12345567.89,12345567.89123457",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "007",
@@ -98,7 +132,8 @@
     "sampleinput": "123 5",
     "sampleoutput": "00123",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "008",
@@ -115,7 +150,8 @@
     "source": "jxf",
     "images": [
       "8001010008.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "009",
@@ -132,7 +168,8 @@
     "source": "jxf",
     "images": [
       "8001010009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "010",
@@ -149,7 +186,8 @@
     "source": "jxf",
     "images": [
       "8001010010.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "011",
@@ -166,7 +204,8 @@
     "source": "https://www.w3resource.com/python-exercises/basic/,37",
     "images": [
       "8001020008.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "012",
@@ -183,7 +222,8 @@
     "source": "https://www.w3resource.com/cpp-exercises/for-loop/index.php，67",
     "images": [
       "8001020010.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "013",
@@ -200,7 +240,8 @@
     "source": "https://www.luogu.com.cn/problem/P1226",
     "images": [
       "8001020007.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "014",
@@ -214,7 +255,8 @@
     "sampleinput": "2/3\n3/7",
     "sampleoutput": "(2/3)+(3/7)=23/21\n(2/3)-(3/7)=5/21\n(2/3)*(3/7)=2/7\n(2/3)/(3/7)=14/9",
     "hint": "",
-    "source": "https://www.w3resource.com/python-exercises/math/ , 46"
+    "source": "https://www.w3resource.com/python-exercises/math/ , 46",
+    "testcases": null
   },
   {
     "no": "015",
@@ -231,7 +273,8 @@
     "source": "jxf",
     "images": [
       "8001020001.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "016",
@@ -248,7 +291,8 @@
     "source": "jxf",
     "images": [
       "8001020004.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "017",
@@ -262,7 +306,8 @@
     "sampleinput": "15",
     "sampleoutput": "592",
     "hint": "",
-    "source": "https://www.w3resource.com/python-exercises/basic/,37"
+    "source": "https://www.w3resource.com/python-exercises/basic/,37",
+    "testcases": null
   },
   {
     "no": "018",
@@ -276,7 +321,8 @@
     "sampleinput": "4.2",
     "sampleoutput": "21/5",
     "hint": "",
-    "source": "https://www.w3resource.com/python-exercises/math/ , 82"
+    "source": "https://www.w3resource.com/python-exercises/math/ , 82",
+    "testcases": null
   },
   {
     "no": "019",
@@ -290,7 +336,8 @@
     "sampleinput": "21",
     "sampleoutput": "3",
     "hint": "",
-    "source": "https://www.w3resource.com/python-exercises/basic/,37"
+    "source": "https://www.w3resource.com/python-exercises/basic/,37",
+    "testcases": null
   },
   {
     "no": "020",
@@ -304,7 +351,8 @@
     "sampleinput": "10",
     "sampleoutput": "1.2+2.3+3.4+4.5+5.6+6.7+7.8+8.9+9.1+10.11=59.61",
     "hint": "",
-    "source": "https://www.w3resource.com/cpp-exercises/for-loop/index.php，67"
+    "source": "https://www.w3resource.com/cpp-exercises/for-loop/index.php，67",
+    "testcases": null
   },
   {
     "no": "021",
@@ -321,7 +369,8 @@
     "source": "https://www.luogu.com.cn/problem/P2261",
     "images": [
       "8001030008.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "022",
@@ -335,7 +384,8 @@
     "sampleinput": "1",
     "sampleoutput": "5",
     "hint": "",
-    "source": "https://practice.geeksforgeeks.org/problems/count-good-numbers/1"
+    "source": "https://practice.geeksforgeeks.org/problems/count-good-numbers/1",
+    "testcases": null
   },
   {
     "no": "023",
@@ -352,7 +402,8 @@
     "source": "https://en.wikipedia.org/wiki/Multiplication_algorithm",
     "images": [
       "8001030001.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "024",
@@ -369,7 +420,8 @@
     "source": "https://en.wikipedia.org/wiki/Multiplication_algorithm",
     "images": [
       "8001030002.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "025",
@@ -383,7 +435,8 @@
     "sampleinput": "14",
     "sampleoutput": "4",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "026",
@@ -397,7 +450,8 @@
     "sampleinput": "200",
     "sampleoutput": "199",
     "hint": "",
-    "source": "https://practice.geeksforgeeks.org/problems/find-the-largest-number4953/1"
+    "source": "https://practice.geeksforgeeks.org/problems/find-the-largest-number4953/1",
+    "testcases": null
   },
   {
     "no": "027",
@@ -414,7 +468,8 @@
     "source": "https://pe-cn.github.io/9/",
     "images": [
       "8001030009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "028",
@@ -431,7 +486,8 @@
     "source": "https://www.geeksforgeeks.org/two-water-jug-puzzle/",
     "images": [
       "8001030003.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "029",
@@ -445,7 +501,8 @@
     "sampleinput": "9",
     "sampleoutput": "3",
     "hint": "",
-    "source": "https://leetcode.com/problems/consecutive-numbers-sum/\nhttps://blog.csdn.net/fuxuemingzhu/article/details/85838367"
+    "source": "https://leetcode.com/problems/consecutive-numbers-sum/\nhttps://blog.csdn.net/fuxuemingzhu/article/details/85838367",
+    "testcases": null
   },
   {
     "no": "030",
@@ -459,7 +516,8 @@
     "sampleinput": "30",
     "sampleoutput": "5",
     "hint": "",
-    "source": "https://atcoder.jp/contests/abc280/tasks/abc280_d\nhttps://www.cnblogs.com/Lanly/p/16950858.html#d---factorial-and-multiple-abc280-d\nhttps://www.cnblogs.com/lightsong/p/16962339.html\nhttps://blog.csdn.net/wp_fxy/article/details/128179159"
+    "source": "https://atcoder.jp/contests/abc280/tasks/abc280_d\nhttps://www.cnblogs.com/Lanly/p/16950858.html#d---factorial-and-multiple-abc280-d\nhttps://www.cnblogs.com/lightsong/p/16962339.html\nhttps://blog.csdn.net/wp_fxy/article/details/128179159",
+    "testcases": null
   },
   {
     "no": "031",
@@ -473,7 +531,8 @@
     "sampleinput": "1 2 3 4 5 6",
     "sampleoutput": "-15",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "032",
@@ -491,7 +550,8 @@
     "images": [
       "8001040003.jpg",
       "8001040003a.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "033",
@@ -508,7 +568,8 @@
     "source": "jxf",
     "images": [
       "8001040010.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "034",
@@ -522,7 +583,8 @@
     "sampleinput": "1.23 5",
     "sampleoutput": "1.512900\n2.815306",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "035",
@@ -539,7 +601,8 @@
     "source": "https://www.calculator.net/volume-calculator.html",
     "images": [
       "8201040006.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "036",
@@ -553,7 +616,8 @@
     "sampleinput": "1 2 3 4 5",
     "sampleoutput": "-2.5000",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "037",
@@ -570,7 +634,8 @@
     "source": "https://www.luogu.com.cn/problem/P2158\nhttps://www.luogu.com.cn/blog/JustinRochester/solution-p2158",
     "images": [
       "8001040009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "038",
@@ -587,7 +652,8 @@
     "source": "https://www.w3resource.com/c-programming-exercises/numbers/index.php，37\nhttps://en.wikipedia.org/wiki/Keith_number\nhttps://zh.wikipedia.org/zh-cn/基思数\nhttps://oeis.org/A007629",
     "images": [
       "8001040001.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "039",
@@ -604,7 +670,8 @@
     "source": "https://www.w3resource.com/c-programming-exercises/numbers/index.php，38\nhttps://en.wikipedia.org/wiki/Harshad_number\nhttps://zh.wikipedia.org/zh-cn/哈沙德数\nhttps://oeis.org/A005349",
     "images": [
       "8001040002.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "040",
@@ -618,7 +685,8 @@
     "sampleinput": "10 100",
     "sampleoutput": "21",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "041",
@@ -635,7 +703,8 @@
     "source": "https://www.cnblogs.com/sinlearn/p/12683168.html\nhttps://blog.csdn.net/m0_68111267/article/details/131398054\nhttps://www.statskingdom.com/linear-regression-calculator.html\nhttps://www.statskingdom.com/index.html",
     "images": [
       "8001050003.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "042",
@@ -649,7 +718,8 @@
     "sampleinput": "1 1 1 1 1 1\n2 2 2 2 2 2\n1 2 3 4 5 6\n0 0 0 0 0 0",
     "sampleoutput": "4\n7\n16",
     "hint": "",
-    "source": "一本通1226：装箱问题\nhttps://www.cnblogs.com/ZhengkunJia/p/12328843.html\nhttp://ybt.ssoier.cn:8088/problem_show.php?pid=1226\nhttps://codeantenna.com/a/XahD8osjGt 【信息学奥赛一本通】题解目录\nhttps://zhuanlan.zhihu.com/p/486094675\nhttps://www.shangyexinzhi.com/article/4169131.html\n一文揭秘空运的各种“重”和“泡”的计算\n空运中“吃泡”和“分泡”是什么意思？空运吃泡怎么算？\n干货，刚入行的新手必看！一文揭秘空运的各种“重”和“泡”的计算"
+    "source": "一本通1226：装箱问题\nhttps://www.cnblogs.com/ZhengkunJia/p/12328843.html\nhttp://ybt.ssoier.cn:8088/problem_show.php?pid=1226\nhttps://codeantenna.com/a/XahD8osjGt 【信息学奥赛一本通】题解目录\nhttps://zhuanlan.zhihu.com/p/486094675\nhttps://www.shangyexinzhi.com/article/4169131.html\n一文揭秘空运的各种“重”和“泡”的计算\n空运中“吃泡”和“分泡”是什么意思？空运吃泡怎么算？\n干货，刚入行的新手必看！一文揭秘空运的各种“重”和“泡”的计算",
+    "testcases": null
   },
   {
     "no": "043",
@@ -667,7 +737,8 @@
     "images": [
       "8001050001.gif",
       "8001050001a.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "044",
@@ -681,7 +752,8 @@
     "sampleinput": "100 2",
     "sampleoutput": "157",
     "hint": "",
-    "source": "https://www.geeksforgeeks.org/double-base-palindrome/"
+    "source": "https://www.geeksforgeeks.org/double-base-palindrome/",
+    "testcases": null
   },
   {
     "no": "045",
@@ -695,7 +767,8 @@
     "sampleinput": "4 4\n5 0 0 0\n0 8 0 0\n0 0 3 0\n0 6 0 0",
     "sampleoutput": "Yes",
     "hint": "",
-    "source": "https://www.w3resource.com/c-programming-exercises/array/index.php 29\nhttps://en.wikipedia.org/wiki/Sparse_matrix\nhttps://baike.baidu.com/item/%E7%A8%80%E7%96%8F%E7%9F%A9%E9%98%B5/3249303?fr=ge_ala"
+    "source": "https://www.w3resource.com/c-programming-exercises/array/index.php 29\nhttps://en.wikipedia.org/wiki/Sparse_matrix\nhttps://baike.baidu.com/item/%E7%A8%80%E7%96%8F%E7%9F%A9%E9%98%B5/3249303?fr=ge_ala",
+    "testcases": null
   },
   {
     "no": "046",
@@ -714,7 +787,8 @@
       "8001050005.jpg",
       "8001050005c.jpg",
       "8001050005b.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "047",
@@ -731,7 +805,8 @@
     "source": "https://www.geeksforgeeks.org/cpp-program-for-determinant-of-a-matrix/\nhttps://en.wikipedia.org/wiki/Determinant",
     "images": [
       "8001050002.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "048",
@@ -745,7 +820,8 @@
     "sampleinput": "3\n1 1 1 15 5\n8 7 6 15 5\n8 5 7 15 6",
     "sampleoutput": "YES\nNO\nYES",
     "hint": "",
-    "source": "https://www.codechef.com/problems/AIRLINE\nhttps://www.codingbroz.com/airline-restrictions-codechef-solution/"
+    "source": "https://www.codechef.com/problems/AIRLINE\nhttps://www.codingbroz.com/airline-restrictions-codechef-solution/",
+    "testcases": null
   },
   {
     "no": "049",
@@ -765,7 +841,8 @@
       "8001050006a.jpg",
       "8001050006b.jpg",
       "8001050006c.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "050",
@@ -782,7 +859,8 @@
     "source": "jxf",
     "images": [
       "8001050009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "051",
@@ -796,7 +874,31 @@
     "sampleinput": "xxforxx xx for xx\nxx\nnwpu",
     "sampleoutput": "nwpufornwpu nwpu for nwpu",
     "hint": "",
-    "source": "https://prepinsta.com/c-program/to-replace-a-substring-in-a-string/\nhttps://www.geeksforgeeks.org/c-program-replace-word-text-another-given-word/\nhttps://stackoverflow.com/questions/779875/what-function-is-to-replace-a-substring-from-a-string-in-c"
+    "source": "https://prepinsta.com/c-program/to-replace-a-substring-in-a-string/\nhttps://www.geeksforgeeks.org/c-program-replace-word-text-another-given-word/\nhttps://stackoverflow.com/questions/779875/what-function-is-to-replace-a-substring-from-a-string-in-c",
+    "testcases": {
+      "count": 3,
+      "note": "经黑盒探测确认共 3 组测试数据，按判题机执行顺序排列。",
+      "cases": [
+        {
+          "no": 1,
+          "input": "xxforxx xx for xx\nxx\nnwpu",
+          "output": "nwpufornwpu nwpu for nwpu",
+          "desc": "样例，标准非重叠替换语义。"
+        },
+        {
+          "no": 2,
+          "input": "x xforx x x x for x x\nx x\nn p u",
+          "output": "n p u forn p u  n p u  for n p u",
+          "desc": "特殊点，期望输出与标准替换结果相差 3 个空格，无统一规律可循。"
+        },
+        {
+          "no": 3,
+          "input": "xxforxx xx for xx\nnwpu\nxx",
+          "output": "xxforxx xx for xx",
+          "desc": "str 中不含 olds，不发生替换，原样输出。"
+        }
+      ]
+    }
   },
   {
     "no": "052",
@@ -810,7 +912,8 @@
     "sampleinput": "ZZ 321",
     "sampleoutput": "420",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "053",
@@ -824,7 +927,8 @@
     "sampleinput": "-123x+123",
     "sampleoutput": "-123",
     "hint": "",
-    "source": "https://leetcode.com/problems/string-to-integer-atoi/description/"
+    "source": "https://leetcode.com/problems/string-to-integer-atoi/description/",
+    "testcases": null
   },
   {
     "no": "054",
@@ -838,7 +942,8 @@
     "sampleinput": "www.example.com\ncmowz.",
     "sampleoutput": "example.com\nwww.example\nexample",
     "hint": "",
-    "source": "https://docs.python.org/zh-cn/3/library/stdtypes.html#text-sequence-type-str"
+    "source": "https://docs.python.org/zh-cn/3/library/stdtypes.html#text-sequence-type-str",
+    "testcases": null
   },
   {
     "no": "055",
@@ -855,7 +960,8 @@
     "source": "https://www.woodwardenglish.com/lesson/numbers-1-100-in-english/",
     "images": [
       "8001060009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "056",
@@ -869,7 +975,8 @@
     "sampleinput": "antiantianwartiantianti\nanti",
     "sampleoutput": "anwartiantianti\nantiantianwarti",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "057",
@@ -883,7 +990,8 @@
     "sampleinput": "www.nwpu.edu.cn\n.（小数点）",
     "sampleoutput": "www\nnwpu\nedu\ncn",
     "hint": "",
-    "source": "https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/\nhttps://www.educative.io/answers/splitting-a-string-using-strtok-in-c\nhttps://stackoverflow.com/questions/9210528/split-string-with-delimiters-in-c"
+    "source": "https://www.geeksforgeeks.org/strtok-strtok_r-functions-c-examples/\nhttps://www.educative.io/answers/splitting-a-string-using-strtok-in-c\nhttps://stackoverflow.com/questions/9210528/split-string-with-delimiters-in-c",
+    "testcases": null
   },
   {
     "no": "058",
@@ -897,7 +1005,8 @@
     "sampleinput": "Hello world",
     "sampleoutput": "hELLO WORLD",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "059",
@@ -911,7 +1020,8 @@
     "sampleinput": "hello world!\nworld!",
     "sampleoutput": "Yes",
     "hint": "",
-    "source": "https://stackoverflow.com/questions/744766/how-to-compare-ends-of-strings-in-c\nhttps://www.tutorialkart.com/c-programming/c-program-check-if-string-ends-with-a-specific-substring/#gsc.tab=0\nhttps://www.tutorialkart.com/cpp/cpp-check-if-string-ends-with-specific-suffix/#gsc.tab=0\nhttps://stackoverflow.com/questions/874134/find-out-if-string-ends-with-another-string-in-c"
+    "source": "https://stackoverflow.com/questions/744766/how-to-compare-ends-of-strings-in-c\nhttps://www.tutorialkart.com/c-programming/c-program-check-if-string-ends-with-a-specific-substring/#gsc.tab=0\nhttps://www.tutorialkart.com/cpp/cpp-check-if-string-ends-with-specific-suffix/#gsc.tab=0\nhttps://stackoverflow.com/questions/874134/find-out-if-string-ends-with-another-string-in-c",
+    "testcases": null
   },
   {
     "no": "060",
@@ -928,7 +1038,8 @@
     "source": "https://www.learnbyexample.org/python-string-slicing/",
     "images": [
       "8001060001.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "061",
@@ -945,7 +1056,8 @@
     "source": "https://www.geeksforgeeks.org/program-print-dna-sequence/\nhttps://zh.wikipedia.org/wiki/核酸双螺旋\nhttps://zh.wikipedia.org/zh-cn/脱氧核糖核酸",
     "images": [
       "8001070004.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "062",
@@ -962,7 +1074,8 @@
     "source": "https://www.geeksforgeeks.org/ternary-search/\n三元搜索\nhttps://en.wikipedia.org/wiki/Ternary_search",
     "images": [
       "8001070010.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "063",
@@ -976,7 +1089,8 @@
     "sampleinput": "abcda\n3",
     "sampleoutput": "dyzad",
     "hint": "",
-    "source": "https://www.geeksforgeeks.org/encrypt-the-given-string-with-the-following-operations/\nhttps://www.geeksforgeeks.org/encrypt-the-string-2/"
+    "source": "https://www.geeksforgeeks.org/encrypt-the-given-string-with-the-following-operations/\nhttps://www.geeksforgeeks.org/encrypt-the-string-2/",
+    "testcases": null
   },
   {
     "no": "064",
@@ -996,7 +1110,8 @@
       "8001070006a.gif",
       "8001070006b.jpg",
       "8001070006c.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "065",
@@ -1010,7 +1125,8 @@
     "sampleinput": "6",
     "sampleoutput": "132",
     "hint": "",
-    "source": "[组合数学专项]1115 组合数学专项\nhttp://blog.chinaunix.net/uid-28595538-id-5450443.html\n一个合法的表达式由()包围，()可以嵌套和连接，如(())()也是合法 表达式；现在有 6 对()，它们可以组成的合法表达式的个数为____\n这道题考察的是卡特兰数，对应的是 6 组，每组中的两个元素 '(', ')' 是需要有序列的，C(2n,n)/(n+1) = C(12,6)/(6+1)\n「算法入门笔记」卡特兰数（Catalan number）\nhttps://zhuanlan.zhihu.com/p/97619085\nhttps://zh.wikipedia.org/zh-cn/卡塔兰数\nhttps://en.wikipedia.org/wiki/Catalan_number\nhttps://www.geeksforgeeks.org/program-nth-catalan-number/\nhttps://oeis.org/A000108\n1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, 35357670, 129644790, 477638700, 1767263190, 6564120420, 24466267020, 91482563640, 343059613650, 1289904147324, 4861946401452, 18367353072152, 69533550916004, 263747951750360, 1002242216651368, 3814986502092304"
+    "source": "[组合数学专项]1115 组合数学专项\nhttp://blog.chinaunix.net/uid-28595538-id-5450443.html\n一个合法的表达式由()包围，()可以嵌套和连接，如(())()也是合法 表达式；现在有 6 对()，它们可以组成的合法表达式的个数为____\n这道题考察的是卡特兰数，对应的是 6 组，每组中的两个元素 '(', ')' 是需要有序列的，C(2n,n)/(n+1) = C(12,6)/(6+1)\n「算法入门笔记」卡特兰数（Catalan number）\nhttps://zhuanlan.zhihu.com/p/97619085\nhttps://zh.wikipedia.org/zh-cn/卡塔兰数\nhttps://en.wikipedia.org/wiki/Catalan_number\nhttps://www.geeksforgeeks.org/program-nth-catalan-number/\nhttps://oeis.org/A000108\n1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, 35357670, 129644790, 477638700, 1767263190, 6564120420, 24466267020, 91482563640, 343059613650, 1289904147324, 4861946401452, 18367353072152, 69533550916004, 263747951750360, 1002242216651368, 3814986502092304",
+    "testcases": null
   },
   {
     "no": "066",
@@ -1024,7 +1140,8 @@
     "sampleinput": "8\n1 8 3 9 10 10 2 4",
     "sampleoutput": "1 2 3 4 8 9 10 10",
     "hint": "",
-    "source": "https://www.geeksforgeeks.org/cycle-sort/\nhttps://www.w3resource.com/c-programming-exercises/searching-and-sorting/c-search-and-sorting-exercise-16.php\nCycle sort\nhttps://en.wikipedia.org/wiki/Cycle_sort\nCycle Sort（圈排序）是一种原地、不稳定的排序算法，它主要用于对数组进行排序\nhttps://blog.csdn.net/DevScript/article/details/132649118\nC Exercises: Sort numbers using Cycle Sort method"
+    "source": "https://www.geeksforgeeks.org/cycle-sort/\nhttps://www.w3resource.com/c-programming-exercises/searching-and-sorting/c-search-and-sorting-exercise-16.php\nCycle sort\nhttps://en.wikipedia.org/wiki/Cycle_sort\nCycle Sort（圈排序）是一种原地、不稳定的排序算法，它主要用于对数组进行排序\nhttps://blog.csdn.net/DevScript/article/details/132649118\nC Exercises: Sort numbers using Cycle Sort method",
+    "testcases": null
   },
   {
     "no": "067",
@@ -1043,7 +1160,8 @@
       "8001070003a.jpg",
       "8001070003.jpg",
       "8001070003b.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "068",
@@ -1057,7 +1175,8 @@
     "sampleinput": "$GPRMC,024813.640,A,3158.4608,N,11848.3737,E,10.05,324.27,150706,,,A*50\n$GPGSV,3,1,11,10,63,137,17,07,61,098,15,05,59,290,20,08,54,157,30*70\n$GPRMC,194548.127,A,5230.657,N,01325.713,E,3968.7,122.8,200220,000.0,W*44\n$GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,,*76\n$GPRMC,111724.681,A,5231.801,N,01329.267,E,1289.3,000.0,291123,000.0,W*48\n$GNVTG,112.99,T,109.99,M,0.15,N,0.08,K,A*3B\nEND",
     "sampleoutput": "10:48:13\nerror\n19:17:24",
     "hint": "",
-    "source": "GPS数据处理——字符串编程练习（C语言）\nhttps://www.freesion.com/article/53751075365/\nNMEA 0183\nhttps://en.wikipedia.org/wiki/NMEA_0183\nGenerate NMEA Test Data\nhttps://github.com/esutton/gps-nmea-log-files\nhttps://www.nmeagen.org/\nNMEA Tools\nOnline Nmea Tools\nhttps://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_software:nmea_instruments"
+    "source": "GPS数据处理——字符串编程练习（C语言）\nhttps://www.freesion.com/article/53751075365/\nNMEA 0183\nhttps://en.wikipedia.org/wiki/NMEA_0183\nGenerate NMEA Test Data\nhttps://github.com/esutton/gps-nmea-log-files\nhttps://www.nmeagen.org/\nNMEA Tools\nOnline Nmea Tools\nhttps://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:supplementary_software:nmea_instruments",
+    "testcases": null
   },
   {
     "no": "069",
@@ -1071,7 +1190,8 @@
     "sampleinput": "2021 1 2\n2021 1 1",
     "sampleoutput": "86400.000000",
     "hint": "",
-    "source": "https://en.cppreference.com/w/c/chrono"
+    "source": "https://en.cppreference.com/w/c/chrono",
+    "testcases": null
   },
   {
     "no": "070",
@@ -1088,7 +1208,8 @@
     "source": "https://codeleading.com/article/25904692011/\n阿里巴巴2016校招笔试题、腾讯2012实习生笔试题\n[组合数学专项]1115 组合数学专项\nhttp://blog.chinaunix.net/uid-28595538-id-5450443.html\n【组合数学+动态规划】在如下8*6的矩阵中，请计算从A移动到B一共有____种走法。要求每次只能向上或向右移动一格，并且不能经过P。\nhttps://www.cnblogs.com/CheeseZH/p/5238769.html\n[组合数学专项]1115 组合数学专项\nhttp://blog.chinaunix.net/uid-28595538-id-5450443.html\n在如下8*6的矩阵中，请计算从A移动到B一共有____种走法。要求每次只能向上或向右移动一格，并且不能经过P。\n这道题考察的同样是容斥定理中的'斥'\n首先计算出 A--> B 的所有可能是 C(12,7)\n然后计算出 A->P->B 的所有可能，这一过程满足的是乘法技术原理\n使用 A-> P 的所有情况乘上 P->B 的所有情况，\nC(6,2)*C(6,3)\n最后结果 = C(12,7) - C(6,2)*C(6,3) = 492",
     "images": [
       "8001070001.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "071",
@@ -1107,7 +1228,8 @@
       "8001080010a.gif",
       "8001080010b.jpg",
       "8001080010c.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "072",
@@ -1121,7 +1243,8 @@
     "sampleinput": "Fe2H3OH",
     "sampleoutput": "Fe 2\nH 4\nO 1",
     "hint": "",
-    "source": "解析分子并获取原子计数的程序\nProgram to parse the Molecules and get the Atoms count\nhttps://www.geeksforgeeks.org/program-to-parse-the-molecules-and-get-the-atoms-count/\nProgram to balance the given Chemical Equation\nhttps://www.geeksforgeeks.org/program-to-balance-the-given-chemical-equation/\nNumber of Atoms in C++\nhttps://www.tutorialspoint.com/number-of-atoms-in-cplusplus\n726. Number of Atoms\nhttps://leetcode.com/problems/number-of-atoms/\nhttps://wentao-shao.gitbook.io/leetcode/string/726.number-of-atoms\nhttps://www.cnblogs.com/grandyang/p/8667239.html"
+    "source": "解析分子并获取原子计数的程序\nProgram to parse the Molecules and get the Atoms count\nhttps://www.geeksforgeeks.org/program-to-parse-the-molecules-and-get-the-atoms-count/\nProgram to balance the given Chemical Equation\nhttps://www.geeksforgeeks.org/program-to-balance-the-given-chemical-equation/\nNumber of Atoms in C++\nhttps://www.tutorialspoint.com/number-of-atoms-in-cplusplus\n726. Number of Atoms\nhttps://leetcode.com/problems/number-of-atoms/\nhttps://wentao-shao.gitbook.io/leetcode/string/726.number-of-atoms\nhttps://www.cnblogs.com/grandyang/p/8667239.html",
+    "testcases": null
   },
   {
     "no": "073",
@@ -1141,7 +1264,8 @@
       "8001080006c.jpg",
       "8001080006b.jpg",
       "8001080006d.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "074",
@@ -1158,7 +1282,8 @@
     "source": "Temperature Change and Heat Capacity\nhttps://courses.lumenlearning.com/suny-physics/chapter/14-2-temperature-change-and-heat-capacity/\nhttps://zh.wikipedia.org/wiki/比热容\nhttps://en.wikipedia.org/wiki/Specific_heat_capacity\nCalculate Energy in C++\nhttps://codepal.ai/code-generator/query/x2MmpblT/calculate-energy-cpp\nCalculate Energy Needed to Heat Water - Java Code\nhttps://codepal.ai/code-generator/query/aKsHqMDy/java-code-calculate-energy-needed-heat-water\nhttps://github.com/jsquared21/Intro-to-Java-Programming/blob/master/Exercise_02/Exercise_02_10/Exercise_02_10.java\nSpecific Heat Formula\nhttps://www.softschools.com/formulas/physics/specific_heat_formula/61/\nhttps://www.quora.com/How-do-you-calculate-the-energy-required-to-heat-water",
     "images": [
       "8001080008.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "075",
@@ -1175,7 +1300,8 @@
     "source": "问题\nSolving the GPS Equations\nhttps://mason.gmu.edu/~treid5/Math447/GPSEquations/\nSolving a multivariate non-linear system of equations using Newton's method\nhttps://math.stackexchange.com/questions/1306112/solving-a-multivariate-non-linear-system-of-equations-using-newtons-method\n原理\n航天科普 | 5分钟了解GPS定位原理\nhttps://zhuanlan.zhihu.com/p/484849603\n北斗/GPS 卫星定位导航算法\nhttps://zhuanlan.zhihu.com/p/370761604\n\n求解非线性方程组根\nNumerical Methods for Solving Systems of Nonlinear Equations\n用牛顿-雅可比迭代法求非线性方程组的根\nNewton's method\nhttps://en.wikipedia.org/wiki/Newton's_method\nCalculating Position from Raw GPS Data\nhttps://www.telesens.co/2017/07/17/calculating-position-from-raw-gps-data/\n【数据】\n\"XYZ ECEF\" or \"NMEA\" data\n【代码参考】\n求解方程组的改进Newton-Raphson方法\nModified Newton Raphson method for solution of systems of equations\n(Multivariate Newton Raphson method)\nhttps://atozmath.com/\nhttps://atozmath.com/CONM/NewtonRaphson2.aspx\nhttps://atozmath.com/CONM/NewtonRaphson2.aspx?q1=x%5e2-2x%2by%5e2-z%2b1%3d0%3bxy%5e2-x-3y%2byz%2b2%3d0%3bxz%5e2-3z%2byz%5e2%2bxy%3d0%601%2c2%2c3&dp=4&do=1#PrevPart\n\nMultivariate Newton-Raphson Solver for a Coupled Non-linear equations\nhttps://skill-lync.com/student-projects/Multivariate-Newton-Raphson-Solver-for-a-Coupled-Non-linear-equations-25511\nWeek 6 - Multivariate Newton Rhapson Solver\nhttps://skill-lync.com/student-projects/week-6-multivariate-newton-rhapson-solver-49\n【参考资料】\nJacobian to do Newton's method\nhttps://math.stackexchange.com/questions/2052358/jacobian-to-do-newtons-method\ncppopt\nNumerical optimization in C++\nhttps://github.com/cheind/cppopt\nMultidimensional Root-Finding\nhttps://www.gnu.org/software/gsl/doc/html/multiroots.html\nClass 8: Roots and minima, more C++, and using external libraries\nhttps://www.phys.ksu.edu/personal/gahs/phys707-prog/Class8.html\nNonlinearSystem\nSolving Non-linear Systems\nhttps://mooseframework.inl.gov/source/systems/NonlinearSystem.html\nC语言牛顿迭代法求解非线性方程组\nhttps://www.freesion.com/article/6868942695/\n牛顿迭代法求解非线性方程组\nhttps://zhuanlan.zhihu.com/p/580580125\n非线性方程组——牛顿迭代求根\nhttps://blog.csdn.net/m0_71253709/article/details/129875060\n【坐标系转换】\nEquations to convert from global cartesian coordinates to geographic coordinates\nhttps://gis.stackexchange.com/questions/120679/equations-to-convert-from-global-cartesian-coordinates-to-geographic-coordinates\nHow do I calculate a xyz-position of one GPS position relative to another?\nhttps://gis.stackexchange.com/questions/23793/how-do-i-calculate-a-xyz-position-of-one-gps-position-relative-to-another\n【求逆矩阵】\nCalculation of matrix inverse in C/C++\nhttps://chi3x10.wordpress.com/2008/05/28/calculate-matrix-inversion-in-c/\nC++ Program to Find Inverse of a Graph Matrix\nhttps://www.tutorialspoint.com/cplusplus-program-to-find-inverse-of-a-graph-matrix\nInverse of a Matrix in C++\nhttps://www.delftstack.com/howto/cpp/cpp-inverse-matrix/\n测试数据\nAdjoint and Inverse of a Matrix\nhttps://www.geeksforgeeks.org/adjoint-inverse-matrix/\nhttps://stackoverflow.com/questions/60300482/c-calculating-the-inverse-of-a-matrix",
     "images": [
       "8001080004.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "076",
@@ -1189,7 +1315,8 @@
     "sampleinput": "6\n2001900001 Jerry 88\n2001900005 Tom 92\n2001900006 Milla 85\n2001900002 Alice 80\n2001900003 Mickey 85\n2001900004 Aladdin 83",
     "sampleoutput": "2001900005 Tom 92\n2001900001 Jerry 88\n2001900003 Mickey 85\n2001900006 Milla 85\n2001900004 Aladdin 83\n2001900002 Alice 80",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "077",
@@ -1206,7 +1333,8 @@
     "source": "Given n line segments, find if any two segments intersect\nhttps://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/\nReferences:\nhttp://www.cs.uiuc.edu/~jeffe/teaching/373/notes/x06-sweepline.pdf\nhttp://courses.csail.mit.edu/6.006/spring11/lectures/lec24.pdf\nhttp://www.youtube.com/watch?v=dePDHVovJlE\nhttp://www.eecs.wsu.edu/~cook/aa/lectures/l25/node10.html\n6.3Geometric Intersections\nhttps://algs4.cs.princeton.edu/93intersection/\nBoolean operations on polygons\n多边形的布尔运算\nhttps://en.wikipedia.org/wiki/Boolean_operations_on_polygons\nComparison of the different algorithms for Polygon Boolean operations\nhttps://www.cnblogs.com/yhlx125/p/4542687.html\nMichael Leonov 1998\nhttp://www.angusj.com/delphi/clipper.php#screenshots\nhttp://www.complex-a5.ru/polyboolean/comp.html\nhttp://www.angusj.com/delphi/clipper.php#screenshots\nComputer-aided design\nhttps://zh.wikipedia.org/zh-cn/计算机辅助设计\nhttps://en.wikipedia.org/wiki/Computer-aided_design\n约束（计算机辅助设计）\nhttps://en.wikipedia.org/wiki/Constraint_(computer-aided_design)\n中国是否拥有完全自主研发的三维几何建模引擎和几何约束求解器？\nhttps://www.iotword.com/15028.html\n国产CAD软件核心技术自主率有多少？\nhttps://zhuanlan.zhihu.com/p/616401962?utm_id=0\n达索CATIA 约束求解器CDS（CONSTRAINT DESIGN SOLVER ）\nhttps://zhuanlan.zhihu.com/p/602792858\n机械工程的核心技术：CAD、CAM、CAE！\nhttps://baijiahao.baidu.com/s?id=1771481184201729032&wfr=spider&for=pc\n深入剖析三维几何内核(8)--几何约束求解器\nhttps://zhuanlan.zhihu.com/p/462190517\n多边形重叠\nhttp://mtweb.cs.ucl.ac.uk/mus/arabidopsis/xiang/software/boost_1_47_0/libs/geometry/doc/html/geometry/reference/algorithms/intersection.html\nIntersection of Convex Polygons Algorithm\nhttps://www.swtestacademy.com/intersection-convex-polygons-algorithm/\n【计算几何】凸多面体重叠判断算法：GJK 算法详解 C++代码实现二维情形的凸多边形重叠判断\nhttps://www.xjx100.cn/news/566326.html?action=onClick",
     "images": [
       "8001080009.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "078",
@@ -1223,7 +1351,8 @@
     "source": "Project 2 - Rocket Simulation\nhttps://aiaaoutreach.aero.engin.umich.edu/c-home/project-2-rocket-simulation\n测试数据\n100000 10000 100 4000 9.81\n100000 10000 140 4000 9.81\n100000 10000 100 4500 9.81\n100000 15000 100 4000 9.81\n125000 15000 100 4000 9.81\n\n100000 10000 100 4000 1.62 g_moon\n100000 10000 100 4000 3.711 g_mars\n100000 10000 100 4000 24.79 g_jupiter\n100000 10000 100 4000 1.352 g_titan",
     "images": [
       "8001080007.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "079",
@@ -1237,7 +1366,8 @@
     "sampleinput": "1 2 3 4 5 0\n7 8 9 0\n-1",
     "sampleoutput": "1 2 3 4 5 3.000000\n1 2 3 4 5 7 8 9 4.500000",
     "hint": "",
-    "source": "https://zh.wikipedia.org/zh-cn/中位数\nhttps://www.w3resource.com/c-programming-exercises/queue/c-queue-exercise-13.php"
+    "source": "https://zh.wikipedia.org/zh-cn/中位数\nhttps://www.w3resource.com/c-programming-exercises/queue/c-queue-exercise-13.php",
+    "testcases": null
   },
   {
     "no": "080",
@@ -1254,7 +1384,8 @@
     "source": "【计算器】\nNOAA Solar Calculator\nhttps://gml.noaa.gov/grad/solcalc/\nhttps://gml.noaa.gov/grad/solcalc/calcdetails.html\nhttps://gml.noaa.gov/grad/solcalc/solareqns.PDF\nSolar Position Calculator\nhttps://gml.noaa.gov/grad/solcalc/azel.html\nNOAA Improved Sunrise Sunset Calculation\nSunrise/Sunset Calculator\nhttps://gml.noaa.gov/grad/solcalc/sunrise.html\nhttps://www.ladybug.tools/ladybug-web/solar-calculator-noaa/ladybug-web-solar-calculator-noaa-viewer-r3.html\n\nCelestial Programming : Rise and Set Algorithm\nhttps://www.celestialprogramming.com/risesetalgorithm.html\n\n【算法】\nSunrise/Sunset Algorithm\nhttps://edwilliams.org/sunrise_sunset_algorithm.htm\nhttps://gist.github.com/mrgame64/c82248df7c72d623eb80\nSunrise equation\nhttps://en.wikipedia.org/wiki/Sunrise_equation\nmath tool to compute time of sunrise and sunset\nhttps://astronomy.stackexchange.com/questions/51658/math-tool-to-compute-time-of-sunrise-and-sunset\n\nAstronomical Calculations: The Julian Day\nhttps://squarewidget.com/julian-day/\n\n【源码】\nSunrise/Sunset Calculations\nhttps://www.codeproject.com/Articles/645/Sunrise-Sunset-Calculations\n\nCalculate Sunrise and Sunset based on time and latitude and longitude\nCalculate Sunrise and Sunset and the phase of the moon accurately based on date and geographic position\nhttps://github.com/buelowp/sunset\n\nsunrise.c\nhttps://souptonuts.sourceforge.net/code/sunrise.c.html\nhttps://sourceforge.net/projects/souptonuts/\n\nsunrise sunset times in c\nhttps://stackoverflow.com/questions/7064531/sunrise-sunset-times-in-c\n\nCalculate Sunset and Sunrise Times in JavaScript\nhttps://codepal.ai/code-generator/query/19HRYmLj/javascript-calculate-sunrise-sunset-times\n\n【参考】\nhttps://zh.wikipedia.org/zh-cn/公历\nhttps://en.wikipedia.org/wiki/Gregorian_calendar\nhttps://en.wikipedia.org/wiki/Julian_calendar\nhttps://zh.wikipedia.org/wiki/儒略历\nPosition of the Sun\nhttps://en.wikipedia.org/wiki/Position_of_the_Sun\nSunrise equation\nhttps://en.wikipedia.org/wiki/Sunrise_equation\n\ninteractive web application\nhttps://andrewmarsh.com/software/\nhttps://andrewmarsh.com/articles/2019/solar-position/\nhttps://drajmarsh.bitbucket.io/earthsun.html\nhttps://drajmarsh.bitbucket.io/sunpath3d.html\nhttps://drajmarsh.bitbucket.io/sunpath2d.html\nhttps://drajmarsh.bitbucket.io/sunpath-on-map.html\n\n日出日落方位的计算 太阳日出日落方位怎么计算\n计算器\nNOAA Solar Calculator\nhttps://gml.noaa.gov/grad/solcalc/\nSunrise/Sunset Calculator\nhttps://gml.noaa.gov/grad/solcalc/sunrise.html\nGeneral Solar Position Calculations\nhttps://gml.noaa.gov/grad/solcalc/solareqns.PDF\nNOAA Sunrise/Sunset Calculator\nhttps://web.vscht.cz/~kolafaj/calc/sunrise.html\nSunrise Sunset Calculator\nhttps://www.omnicalculator.com/physics/sunrise-sunset\n【参考代码】\nC++ Sunrise/Sunset Function\nhttps://codepal.ai/code-generator/query/GDQrUujP/c-function-sunrise-sunset-time\nCalculation of sunrise, sunset, twilight times and daylengths for a given latitude, longitude, date and time zone\nhttps://github.com/jarmol/suncalcs\nSunrise/Sunset Calculations\nhttps://www.codeproject.com/Articles/645/Sunrise-Sunset-Calculations",
     "images": [
       "8001080005.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "081",
@@ -1271,7 +1402,8 @@
     "source": "Check if a given string is sum-string\nhttps://www.geeksforgeeks.org/check-given-string-sum-string/",
     "images": [
       "8001090009.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "082",
@@ -1285,7 +1417,8 @@
     "sampleinput": "ennkuu",
     "sampleoutput": "4",
     "hint": "",
-    "source": "C. Constanze's Machine\nhttps://codeforces.com/problemset/problem/1245/C\n【标程】\nhttps://github.com/abufarhad/Codeforces-Problems-Solution/blob/master/1245C.cpp\n【解析】\nCodeForces - 1245C Constanze's Machine(思维+找规律)\nhttps://blog.csdn.net/qq_45458915/article/details/103516202\nCodeforces 1245C Constanze's Machine\nhttps://codeantenna.com/a/CFYkU4vbEG\nhttps://blog.csdn.net/qq_45228537/article/details/103017594"
+    "source": "C. Constanze's Machine\nhttps://codeforces.com/problemset/problem/1245/C\n【标程】\nhttps://github.com/abufarhad/Codeforces-Problems-Solution/blob/master/1245C.cpp\n【解析】\nCodeForces - 1245C Constanze's Machine(思维+找规律)\nhttps://blog.csdn.net/qq_45458915/article/details/103516202\nCodeforces 1245C Constanze's Machine\nhttps://codeantenna.com/a/CFYkU4vbEG\nhttps://blog.csdn.net/qq_45228537/article/details/103017594",
+    "testcases": null
   },
   {
     "no": "083",
@@ -1299,7 +1432,8 @@
     "sampleinput": "7\n2 -4 1 9 -6 7 -3",
     "sampleoutput": "11",
     "hint": "",
-    "source": "Maximum Subarray Sum using Divide and Conquer\nhttps://www.techiedelight.com/maximum-sum-subarray-using-divide-conquer/\n\n53. Maximum Subarray\nhttps://leetcode.com/problems/maximum-subarray/\nMaximum Subarray Sum using Divide and Conquer algorithm\nhttps://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/\nLargest Sum Contiguous Subarray (Kadane’s Algorithm)\nhttps://www.geeksforgeeks.org/largest-sum-contiguous-subarray/"
+    "source": "Maximum Subarray Sum using Divide and Conquer\nhttps://www.techiedelight.com/maximum-sum-subarray-using-divide-conquer/\n\n53. Maximum Subarray\nhttps://leetcode.com/problems/maximum-subarray/\nMaximum Subarray Sum using Divide and Conquer algorithm\nhttps://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/\nLargest Sum Contiguous Subarray (Kadane’s Algorithm)\nhttps://www.geeksforgeeks.org/largest-sum-contiguous-subarray/",
+    "testcases": null
   },
   {
     "no": "084",
@@ -1313,7 +1447,8 @@
     "sampleinput": "6 1\n3",
     "sampleoutput": "4",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "085",
@@ -1327,7 +1462,8 @@
     "sampleinput": "6\n1 8 5 2 4 3",
     "sampleoutput": "4 5 8",
     "hint": "",
-    "source": "试题\nMaximum Perimeter Triangle _ HackerRank\nhttps://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem?isFullScreen=true\n解析\nHackerrank Maximum Perimeter Triangle solution\nhttps://hackerranksolution.in/maximumperimetertrainglealgo/\nFind Maximum Perimeter of a Triangle\nhttps://iq.opengenus.org/maximum-perimeter-of-triangle/\nMaximum Perimeter Triangle With The Greedy Approach\nhttps://medium.com/linkit-intecs/maximum-perimeter-triangle-with-the-greedy-approach-86ebc9a62eef"
+    "source": "试题\nMaximum Perimeter Triangle _ HackerRank\nhttps://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem?isFullScreen=true\n解析\nHackerrank Maximum Perimeter Triangle solution\nhttps://hackerranksolution.in/maximumperimetertrainglealgo/\nFind Maximum Perimeter of a Triangle\nhttps://iq.opengenus.org/maximum-perimeter-of-triangle/\nMaximum Perimeter Triangle With The Greedy Approach\nhttps://medium.com/linkit-intecs/maximum-perimeter-triangle-with-the-greedy-approach-86ebc9a62eef",
+    "testcases": null
   },
   {
     "no": "086",
@@ -1344,7 +1480,8 @@
     "source": "试题\nGAMEFREAK Programming Contest 2023 (AtCoder Beginner Contest 317)\nAtcoder Contest 317 C - Remembering the Days\nhttps://atcoder.jp/contests/abc317/tasks/abc317_c\n【解析】\n题意：每个点最多经过一次，求最长路\n思路：数据范围很小，深搜每个点能到其他点的所有路，取最大\nhttps://www.cnblogs.com/oystercard/p/17672651.html\nAtCoder Beginner Contest 317（A~E题）讲解\nhttps://blog.csdn.net/weixin_66946161/article/details/132516511\n要想富，先读入\n建图（邻接表）\n对于每一个点，通过 DFS \\text{DFS}DFS 算出最长距离（具体看代码）\nAtCoder Beginner Contest 317 CD\nhttps://www.acwing.com/file_system/file/content/whole/index/content/9917775/\n\nhttps://www.linkedin.com/posts/abhisheksainikgp_atcoder-contest-317-a-g-problems-intuitions-activity-7101202824503455744-RtxX?trk=public_profile_share_view\nAtcoder Contest 317 A - G Problems Intuitions -\nProblem A - Iterate through all elements and the first element that makes the answer greater or equal is the answer.\nProblem B - Find the minimum and maximum of the list. Then iterate and check which ones in between these don't exist.\nProblem C - Try all cases with backtracking and take max. Good beginner-level problem to practice your backtracking skills.\nProblem D - For every district we can find how many votes are needed to overturn. So this becomes a problem where we know the cost = votes needed to overturn and seats are the value. Use dynamic programming to find the minimum cost needed for more than half value.\nProblem E - Iterate through the grid once row-wise and column-wise and mark all the cells within sight of any person. After all not allowed nodes are marked, use BFS to find the minimum distance.\nProblem F - Didn't spend much time on it because G was so much more interesting. Will edit the post and add later if I look at this later.\nProblem G - This can be formulated as a bipartite graph. One set can be rows and other numbers from 1 to N. Try to find M matching in this graph one by one. Find a matching, remove those edges graph, and try again. Every matching corresponds to assigned values to every column. If can't find M matchings, then the answer is No.",
     "images": [
       "8001090008.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "087",
@@ -1358,7 +1495,8 @@
     "sampleinput": "3\n3 3\n1 3\n2 3",
     "sampleoutput": "2 3 1",
     "hint": "",
-    "source": "试题\nJim and the Orders _ HackerRank\nhttps://www.hackerrank.com/challenges/jim-and-the-orders/problem\n解析\nhttps://hackerranksolution.in/jimandordersalgo/\nHackerRank Jim and the Orders problem solution\nhttps://programs.programmingoneonone.com/2021/07/hackerrank-jim-and-the-orders-problem-solution.html\nhttps://github.com/BlakeBrown/HackerRank-Solutions/blob/master/Algorithms/Greedy/Jim%20and%20the%20Orders.cpp"
+    "source": "试题\nJim and the Orders _ HackerRank\nhttps://www.hackerrank.com/challenges/jim-and-the-orders/problem\n解析\nhttps://hackerranksolution.in/jimandordersalgo/\nHackerRank Jim and the Orders problem solution\nhttps://programs.programmingoneonone.com/2021/07/hackerrank-jim-and-the-orders-problem-solution.html\nhttps://github.com/BlakeBrown/HackerRank-Solutions/blob/master/Algorithms/Greedy/Jim%20and%20the%20Orders.cpp",
+    "testcases": null
   },
   {
     "no": "088",
@@ -1372,7 +1510,8 @@
     "sampleinput": "3\n3 -7 0",
     "sampleoutput": "3",
     "hint": "",
-    "source": "试题\nMinimum Absolute Difference in an Array\nhttps://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem\n解析\nHackerRank Minimum Absolute Difference in an Array problem solution\nhttps://programs.programmingoneonone.com/2021/03/hackerRank-minimum-absolute-difference-in-an-array-solution.html"
+    "source": "试题\nMinimum Absolute Difference in an Array\nhttps://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem\n解析\nHackerRank Minimum Absolute Difference in an Array problem solution\nhttps://programs.programmingoneonone.com/2021/03/hackerRank-minimum-absolute-difference-in-an-array-solution.html",
+    "testcases": null
   },
   {
     "no": "089",
@@ -1386,7 +1525,8 @@
     "sampleinput": "3\n1 2 3",
     "sampleoutput": "4",
     "hint": "",
-    "source": "Codeforces 455A\nhttps://codeforces.com/problemset/problem/455/A%7C\nhttps://github.com/souravpati/codeforces/blob/master/455A.cpp"
+    "source": "Codeforces 455A\nhttps://codeforces.com/problemset/problem/455/A%7C\nhttps://github.com/souravpati/codeforces/blob/master/455A.cpp",
+    "testcases": null
   },
   {
     "no": "090",
@@ -1400,7 +1540,8 @@
     "sampleinput": "1\n2\n3\n4\n5\n0",
     "sampleoutput": "0\n0\n1\n3\n8",
     "hint": "",
-    "source": "UVA 580 - Critical Mass\nhttps://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=521\nhttps://zerojudge.tw/ShowProblem?problemid=a388\n\n解析\n【递推关系】\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法二\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nUVA 580 Critical Mass\nhttps://bbs.huaweicloud.com/blogs/312509\n递推+加打表法\nhttps://blog.51cto.com/u_15458280/4847607\n\n【动态规划A】\nUVA 580 - Critical Mass（简单DP）\nhttps://www.cnblogs.com/wafish/p/10465231.html\nhttps://github.com/thnkndblv/UVa-Online-Judge-Solutions/blob/master/580%20-%20Critical%20Mass/p580.cpp\nhttps://blog.csdn.net/mobius_strip/article/details/43851679\n\n【动态规划B】\nUVA580 Critical Mass 【思维+DP】\nhttps://blog.csdn.net/Sycamore_Ma/article/details/127064148\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法三\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nuva 580 - Critical Mass(dp)\nhttp://www.aspphp.online/bianchen/cyuyan/cjj/cjjrm/201701/210257.html\n递归法\nhttps://github.com/MaSteve/UVA-problems/blob/master/UVA00580.cpp"
+    "source": "UVA 580 - Critical Mass\nhttps://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=521\nhttps://zerojudge.tw/ShowProblem?problemid=a388\n\n解析\n【递推关系】\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法二\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nUVA 580 Critical Mass\nhttps://bbs.huaweicloud.com/blogs/312509\n递推+加打表法\nhttps://blog.51cto.com/u_15458280/4847607\n\n【动态规划A】\nUVA 580 - Critical Mass（简单DP）\nhttps://www.cnblogs.com/wafish/p/10465231.html\nhttps://github.com/thnkndblv/UVa-Online-Judge-Solutions/blob/master/580%20-%20Critical%20Mass/p580.cpp\nhttps://blog.csdn.net/mobius_strip/article/details/43851679\n\n【动态规划B】\nUVA580 Critical Mass 【思维+DP】\nhttps://blog.csdn.net/Sycamore_Ma/article/details/127064148\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法三\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nuva 580 - Critical Mass(dp)\nhttp://www.aspphp.online/bianchen/cyuyan/cjj/cjjrm/201701/210257.html\n递归法\nhttps://github.com/MaSteve/UVA-problems/blob/master/UVA00580.cpp",
+    "testcases": null
   },
   {
     "no": "091",
@@ -1418,7 +1559,8 @@
     "images": [
       "8001100004a.gif",
       "8001100004b.gif"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "092",
@@ -1432,7 +1574,8 @@
     "sampleinput": "10\n1 10 20 1 25 1 10 30 25 1",
     "sampleoutput": "5",
     "hint": "",
-    "source": "C Exercises: Count the total number of duplicate elements in an array\nhttps://www.w3resource.com/c-programming-exercises/array/c-array-exercise-5.php\nC program count total duplicate elements in array\nhttps://codeforwin.org/c-programming/c-program-count-number-of-duplicate-element-in-array"
+    "source": "C Exercises: Count the total number of duplicate elements in an array\nhttps://www.w3resource.com/c-programming-exercises/array/c-array-exercise-5.php\nC program count total duplicate elements in array\nhttps://codeforwin.org/c-programming/c-program-count-number-of-duplicate-element-in-array",
+    "testcases": null
   },
   {
     "no": "093",
@@ -1449,7 +1592,8 @@
     "source": "https://itecnote.com/tecnote/r-finding-the-closest-point-from-a-set-of-points-on-plane/\nGiven n points on a 2D plane, find the distance between the closest pair of points.\nhttps://github.com/nirjarigandhi/The-Closest-Pair-of-Points-Problem\nhttps://en.wikipedia.org/wiki/Closest_pair_of_points_problem\nClosest Pair of Points | O(nlogn) Implementation\nhttps://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/\nhttps://math.stackexchange.com/questions/3791447/how-do-i-find-a-point-that-is-closest-to-multiple-points-on-a-2d-cartesian-plane\nClosest Pair of Points using Divide and Conquer algorithm\nhttps://www.geeksforgeeks.org/closest-pair-of-points-using-divide-and-conquer-algorithm/\n寻找最近点对\nhttps://blog.csdn.net/bertzhang/article/details/7260509\n平面内有N个点，如何快速求出距离最近的点对？\nhttps://zhuanlan.zhihu.com/p/296231213\n分治法二（平面最近点对）\nhttps://www.cnblogs.com/detrol/p/7533606.html\n航班号\nhttps://en.wikipedia.org/wiki/Flight_number\n空中管制\nhttps://baike.baidu.com/item/雷达显示器/5170582\nhttps://baike.baidu.com/item/塔台/1436123\nhttps://baike.baidu.com/item/空中交通管制计算机/20288239",
     "images": [
       "8001100008a.jpg"
-    ]
+    ],
+    "testcases": null
   },
   {
     "no": "094",
@@ -1463,7 +1607,8 @@
     "sampleinput": "920 -49.90",
     "sampleoutput": "0.853 transonic",
     "hint": "",
-    "source": "https://en.wikipedia.org/wiki/Mach_number\nhttps://zh.wikipedia.org/zh-cn/马赫\nMach Number\nhttps://www.grc.nasa.gov/www/k-12/airplane/mach.html\nMach Number Calculator\nhttps://www.omnicalculator.com/physics/mach-number"
+    "source": "https://en.wikipedia.org/wiki/Mach_number\nhttps://zh.wikipedia.org/zh-cn/马赫\nMach Number\nhttps://www.grc.nasa.gov/www/k-12/airplane/mach.html\nMach Number Calculator\nhttps://www.omnicalculator.com/physics/mach-number",
+    "testcases": null
   },
   {
     "no": "095",
@@ -1477,7 +1622,8 @@
     "sampleinput": "5",
     "sampleoutput": "1.000000 1.414214 1.732051 2.000000 2.236068",
     "hint": "",
-    "source": "jxf"
+    "source": "jxf",
+    "testcases": null
   },
   {
     "no": "096",
@@ -1491,7 +1637,8 @@
     "sampleinput": "2 3",
     "sampleoutput": "9",
     "hint": "",
-    "source": "数学函数列表\nList of mathematical functions\nhttps://en.wikipedia.org/wiki/List_of_mathematical_functions\nAckermann function\nhttps://en.wikipedia.org/wiki/Ackermann_function\nAckermann Function\nhttps://www.geeksforgeeks.org/ackermann-function/"
+    "source": "数学函数列表\nList of mathematical functions\nhttps://en.wikipedia.org/wiki/List_of_mathematical_functions\nAckermann function\nhttps://en.wikipedia.org/wiki/Ackermann_function\nAckermann Function\nhttps://www.geeksforgeeks.org/ackermann-function/",
+    "testcases": null
   },
   {
     "no": "097",
@@ -1505,7 +1652,8 @@
     "sampleinput": "25",
     "sampleoutput": "5=1\n10=2",
     "hint": "",
-    "source": "Greedy Algorithm to find Minimum number of Coins\nhttps://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/\nGreedy Algorithm to find Minimum number of Coins\nhttps://medium.com/@gururajgpt544/greedy-algorithm-to-find-minimum-number-of-coins-6d364b40afd7\n50 greedy algorithm interview questions\nhttps://igotanoffer.com/blogs/tech/greedy-algorithm-interview-questions\nGreedy Algorithms in C++ (10 Popular Problems with Solutions)\nhttps://favtutor.com/blogs/greedy-algorithms\nTop 7 Greedy Algorithm Problems\nhttps://medium.com/techie-delight/top-7-greedy-algorithm-problems-3885feaf9430"
+    "source": "Greedy Algorithm to find Minimum number of Coins\nhttps://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/\nGreedy Algorithm to find Minimum number of Coins\nhttps://medium.com/@gururajgpt544/greedy-algorithm-to-find-minimum-number-of-coins-6d364b40afd7\n50 greedy algorithm interview questions\nhttps://igotanoffer.com/blogs/tech/greedy-algorithm-interview-questions\nGreedy Algorithms in C++ (10 Popular Problems with Solutions)\nhttps://favtutor.com/blogs/greedy-algorithms\nTop 7 Greedy Algorithm Problems\nhttps://medium.com/techie-delight/top-7-greedy-algorithm-problems-3885feaf9430",
+    "testcases": null
   },
   {
     "no": "098",
@@ -1519,7 +1667,8 @@
     "sampleinput": "349.03 352.04",
     "sampleoutput": "1.0043",
     "hint": "",
-    "source": "计算\n2.9: Graham's Laws of Diffusion and Effusion\nhttps://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/02%3A_Properties_of_Gases/2.09%3A_Graham's_Laws_of_Diffusion_and_Effusion\nhttps://www.vedantu.com/chemistry/grahams-law\n视频\nC7 Effusion, Diffusion and Grahams Law [HL IB Chemistry]\nhttps://www.youtube.com/watch?app=desktop&v=JOOJ3MyHogE\nGraham's law\nhttps://en.wikipedia.org/wiki/Graham%27s_law\n格锐目定律\nhttps://zh.wikipedia.org/zh-cn/格锐目定律\n液体泄漏蒸发量及发生爆炸所需时间的计算\nhttp://www.njjiantian.com/evaporation-of-liquid-leakage-and-explosion-of-computing-time-required.html\n气体扩散定律\nhttps://localsite.baidu.com/okam/pages/article/index?categoryLv1=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&ch=54&srcid=10004&strategyId=141035721449182&source=natural"
+    "source": "计算\n2.9: Graham's Laws of Diffusion and Effusion\nhttps://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/02%3A_Properties_of_Gases/2.09%3A_Graham's_Laws_of_Diffusion_and_Effusion\nhttps://www.vedantu.com/chemistry/grahams-law\n视频\nC7 Effusion, Diffusion and Grahams Law [HL IB Chemistry]\nhttps://www.youtube.com/watch?app=desktop&v=JOOJ3MyHogE\nGraham's law\nhttps://en.wikipedia.org/wiki/Graham%27s_law\n格锐目定律\nhttps://zh.wikipedia.org/zh-cn/格锐目定律\n液体泄漏蒸发量及发生爆炸所需时间的计算\nhttp://www.njjiantian.com/evaporation-of-liquid-leakage-and-explosion-of-computing-time-required.html\n气体扩散定律\nhttps://localsite.baidu.com/okam/pages/article/index?categoryLv1=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&ch=54&srcid=10004&strategyId=141035721449182&source=natural",
+    "testcases": null
   },
   {
     "no": "099",
@@ -1533,7 +1682,8 @@
     "sampleinput": "100",
     "sampleoutput": "3.1415929",
     "hint": "",
-    "source": "https://en.wikipedia.org/wiki/Pi"
+    "source": "https://en.wikipedia.org/wiki/Pi",
+    "testcases": null
   },
   {
     "no": "100",
@@ -1547,6 +1697,7 @@
     "sampleinput": "abcdefX181292",
     "sampleoutput": "fedcbaX292181",
     "hint": "",
-    "source": "Selection Sort – Data Structure and Algorithm Tutorials\nhttps://www.geeksforgeeks.org/selection-sort/"
+    "source": "Selection Sort – Data Structure and Algorithm Tutorials\nhttps://www.geeksforgeeks.org/selection-sort/",
+    "testcases": null
   }
 ]
