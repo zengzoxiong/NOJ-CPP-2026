@@ -32,3 +32,45 @@ eighty-one
 ---
 
 ## 测试点
+
+### 测试点 1
+
+输入：
+
+```
+twenty-seven fifty-four
+```
+
+输出：
+
+```
+eighty-one
+```
+
+### 测试点 2
+
+输入：
+
+```
+zero zero
+```
+
+输出：
+
+```
+zero
+```
+
+### 测试点 3
+
+输入：
+
+```
+five thirty
+```
+
+输出：
+
+```
+thirty-five
+```
