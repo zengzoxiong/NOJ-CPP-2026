@@ -9,7 +9,6 @@
 | `data/problems.json` | 结构化数据，唯一数据源，100 条记录 |
 | `problems/NNN-*.md` | 每题一篇 Markdown，供直接阅读 |
 | `data/images/` | 题目配图，共 62 张 |
-| `data/videos/` | 视频及封面帧，共 2 段 |
 
 ## 字段说明
 
@@ -25,23 +24,20 @@
 | `hint` | 提示，本题库全部为空 |
 | `source` | 题目来源或参考资料链接 |
 | `images` | 配图文件名，对应 `data/images/` |
-| `videos` | 视频文件名，对应 `data/videos/` |
-| `videoSources` | 视频的公开来源信息（标题、作者、时长、URL） |
 
 JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按平台原生版式展示，只呈现标题、时限内存、Description、Input、Output、Sample Input、Sample Output 七项。
 
-## 视频来源
+## 视频说明
 
-平台服务器上原本引用的两段 mp4 已返回 404，现已从公开来源找回并归档：
-
-| 题号 | 文件 | 来源 | 说明 |
-| --- | --- | --- | --- |
-| 098 | `EffusionandGrahamsLaw.mp4` | [C7 Effusion, Diffusion and Grahams Law](https://www.youtube.com/watch?v=JOOJ3MyHogE) ｜ Richard Thornley | 题面来源字段已注明该视频，标题与文件名一致 |
-| 094 | `MachJ20ZHUHAIAIRSHOW.mp4` | [珠海航展2022 J-20周身大片凝结云](https://www.bilibili.com/video/BV1h84y1v7JD) ｜ 天宫空间站 | 平台原文件名为人工重命名，未找到可确认的原始出处，此处为同主题公开替代来源 |
+原平台题面中 094 马赫数、098 气体扩散 两题各引用了一段 mp4，服务器上这些文件已返回 404，本库不收录视频。094 正文中"下面是歼20的飞行视频"一句为原题面原文，予以保留；098 的原始出处为 YouTube 视频 [C7 Effusion, Diffusion and Grahams Law](https://www.youtube.com/watch?v=JOOJ3MyHogE)，可自行查阅。
 
 ## 公式渲染
 
-题面中的 LaTeX 公式按 GitHub MathJax 语法书写：行内用 `$...$`，块级用 `$$` 独占一行并在前后留空行。原平台使用的 `flalign` 环境 MathJax 不支持，已改写为 `aligned`、`align`、`matrix` 等兼容写法。
+题面中的 LaTeX 公式按 GitHub MathJax 语法书写，共 18 题含公式，行内 121 处、块级 10 处，已全部通过 GitHub 渲染接口验证。
+
+- **行内公式**用反引号形式 `` $`...`$ ``。GitHub 要求 `$` 两侧是空白或行边界，中文与全角标点不算空白，因此 `` 这里的$Rate_{1}$和 `` 不会渲染，`` 这里的$`Rate_{1}`$和 `` 才会。
+- **块级公式**用 `$$` 独占一行，前后各留一个空行。
+- 原平台的 `flalign` 环境 MathJax 不支持，已改写为 `aligned`、`align`、`matrix` 等兼容写法。
 
 ## 题目索引
 
@@ -152,5 +148,4 @@ JSON 保留全部原始字段供程序使用；`problems/` 下的 Markdown 按�
 
 - 采集日期：2026-11-09
 - 数据来源：NOJ 平台题面页 `cpIPPDFReader.aspx`，按 HTML 结构转换为纯文本
-- 公式保留 `$...$` 与 `$$...$$` 原文，未做渲染
-- 094 马赫数、098 气体扩散 两题正文引用 mp4 视频，平台服务器返回 404，仅记录文件名
+- 公式已按 GitHub MathJax 语法规范化，详见上文「公式渲染」
