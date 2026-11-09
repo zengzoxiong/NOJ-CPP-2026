@@ -59,9 +59,6 @@
     "sampleoutput": "4,-2147483648,2147483647",
     "hint": "",
     "source": "jxf",
-    "images": [
-      "8001010003.jpg"
-    ],
     "testcases": null
   },
   {
@@ -137,9 +134,6 @@
     "sampleoutput": "5793.2236km",
     "hint": "",
     "source": "jxf",
-    "images": [
-      "8001010008.jpg"
-    ],
     "testcases": null
   },
   {
@@ -191,9 +185,6 @@
     "sampleoutput": "56088",
     "hint": "",
     "source": "https://www.w3resource.com/python-exercises/basic/,37",
-    "images": [
-      "8001020008.jpg"
-    ],
     "testcases": null
   },
   {
@@ -227,9 +218,6 @@
     "sampleoutput": "7",
     "hint": "",
     "source": "https://www.luogu.com.cn/problem/P1226",
-    "images": [
-      "8001020007.jpg"
-    ],
     "testcases": null
   },
   {
@@ -260,9 +248,6 @@
     "sampleoutput": "23\n2318",
     "hint": "",
     "source": "jxf",
-    "images": [
-      "8001020001.jpg"
-    ],
     "testcases": null
   },
   {
@@ -356,9 +341,6 @@
     "sampleoutput": "29",
     "hint": "",
     "source": "https://www.luogu.com.cn/problem/P2261",
-    "images": [
-      "8001030008.jpg"
-    ],
     "testcases": null
   },
   {
@@ -407,9 +389,6 @@
     "sampleoutput": "11 3\n5 6\n2 12\n1 24\n33",
     "hint": "",
     "source": "https://en.wikipedia.org/wiki/Multiplication_algorithm",
-    "images": [
-      "8001030002.jpg"
-    ],
     "testcases": null
   },
   {
@@ -455,9 +434,6 @@
     "sampleoutput": "31875000",
     "hint": "",
     "source": "https://pe-cn.github.io/9/",
-    "images": [
-      "8001030009.jpg"
-    ],
     "testcases": null
   },
   {
@@ -536,10 +512,6 @@
     "sampleoutput": "2378",
     "hint": "",
     "source": "https://www.w3resource.com/c-programming-exercises/numbers/index.php，35\nhttps://en.wikipedia.org/wiki/Pell_number",
-    "images": [
-      "8001040003.jpg",
-      "8001040003a.jpg"
-    ],
     "testcases": null
   },
   {
@@ -639,9 +611,6 @@
     "sampleoutput": "Yes",
     "hint": "",
     "source": "https://www.w3resource.com/c-programming-exercises/numbers/index.php，37\nhttps://en.wikipedia.org/wiki/Keith_number\nhttps://zh.wikipedia.org/zh-cn/基思数\nhttps://oeis.org/A007629",
-    "images": [
-      "8001040001.jpg"
-    ],
     "testcases": null
   },
   {
@@ -657,9 +626,6 @@
     "sampleoutput": "4",
     "hint": "",
     "source": "https://www.w3resource.com/c-programming-exercises/numbers/index.php，38\nhttps://en.wikipedia.org/wiki/Harshad_number\nhttps://zh.wikipedia.org/zh-cn/哈沙德数\nhttps://oeis.org/A005349",
-    "images": [
-      "8001040002.jpg"
-    ],
     "testcases": null
   },
   {
@@ -724,8 +690,7 @@
     "hint": "",
     "source": "算法竞赛中的初等数论\nhttps://en.wikipedia.org/wiki/Prime_number\nhttps://zh.wikipedia.org/zh-cn/素数",
     "images": [
-      "8001050001.gif",
-      "8001050001a.jpg"
+      "8001050001.gif"
     ],
     "testcases": null
   },
@@ -774,7 +739,6 @@
     "source": "https://github.com/komed3/top-737-800",
     "images": [
       "8001050005.jpg",
-      "8001050005c.jpg",
       "8001050005b.gif"
     ],
     "testcases": null
@@ -792,9 +756,6 @@
     "sampleoutput": "28",
     "hint": "",
     "source": "https://www.geeksforgeeks.org/cpp-program-for-determinant-of-a-matrix/\nhttps://en.wikipedia.org/wiki/Determinant",
-    "images": [
-      "8001050002.jpg"
-    ],
     "testcases": null
   },
   {
@@ -828,8 +789,7 @@
     "images": [
       "8001050006.jpg",
       "8001050006a.jpg",
-      "8001050006b.jpg",
-      "8001050006c.jpg"
+      "8001050006b.jpg"
     ],
     "testcases": null
   },
@@ -1262,9 +1222,6 @@
     "sampleoutput": "89.79kJ,0.30%,0.70%",
     "hint": "",
     "source": "Temperature Change and Heat Capacity\nhttps://courses.lumenlearning.com/suny-physics/chapter/14-2-temperature-change-and-heat-capacity/\nhttps://zh.wikipedia.org/wiki/比热容\nhttps://en.wikipedia.org/wiki/Specific_heat_capacity\nCalculate Energy in C++\nhttps://codepal.ai/code-generator/query/x2MmpblT/calculate-energy-cpp\nCalculate Energy Needed to Heat Water - Java Code\nhttps://codepal.ai/code-generator/query/aKsHqMDy/java-code-calculate-energy-needed-heat-water\nhttps://github.com/jsquared21/Intro-to-Java-Programming/blob/master/Exercise_02/Exercise_02_10/Exercise_02_10.java\nSpecific Heat Formula\nhttps://www.softschools.com/formulas/physics/specific_heat_formula/61/\nhttps://www.quora.com/How-do-you-calculate-the-energy-required-to-heat-water",
-    "images": [
-      "8001080008.jpg"
-    ],
     "testcases": null
   },
   {
@@ -1382,9 +1339,6 @@
     "sampleoutput": "true",
     "hint": "",
     "source": "Check if a given string is sum-string\nhttps://www.geeksforgeeks.org/check-given-string-sum-string/",
-    "images": [
-      "8001090009.jpg"
-    ],
     "testcases": null
   },
   {
@@ -1460,9 +1414,6 @@
     "sampleoutput": "1110",
     "hint": "",
     "source": "试题\nGAMEFREAK Programming Contest 2023 (AtCoder Beginner Contest 317)\nAtcoder Contest 317 C - Remembering the Days\nhttps://atcoder.jp/contests/abc317/tasks/abc317_c\n【解析】\n题意：每个点最多经过一次，求最长路\n思路：数据范围很小，深搜每个点能到其他点的所有路，取最大\nhttps://www.cnblogs.com/oystercard/p/17672651.html\nAtCoder Beginner Contest 317（A~E题）讲解\nhttps://blog.csdn.net/weixin_66946161/article/details/132516511\n要想富，先读入\n建图（邻接表）\n对于每一个点，通过 DFS \\text{DFS}DFS 算出最长距离（具体看代码）\nAtCoder Beginner Contest 317 CD\nhttps://www.acwing.com/file_system/file/content/whole/index/content/9917775/\n\nhttps://www.linkedin.com/posts/abhisheksainikgp_atcoder-contest-317-a-g-problems-intuitions-activity-7101202824503455744-RtxX?trk=public_profile_share_view\nAtcoder Contest 317 A - G Problems Intuitions -\nProblem A - Iterate through all elements and the first element that makes the answer greater or equal is the answer.\nProblem B - Find the minimum and maximum of the list. Then iterate and check which ones in between these don't exist.\nProblem C - Try all cases with backtracking and take max. Good beginner-level problem to practice your backtracking skills.\nProblem D - For every district we can find how many votes are needed to overturn. So this becomes a problem where we know the cost = votes needed to overturn and seats are the value. Use dynamic programming to find the minimum cost needed for more than half value.\nProblem E - Iterate through the grid once row-wise and column-wise and mark all the cells within sight of any person. After all not allowed nodes are marked, use BFS to find the minimum distance.\nProblem F - Didn't spend much time on it because G was so much more interesting. Will edit the post and add later if I look at this later.\nProblem G - This can be formulated as a bipartite graph. One set can be rows and other numbers from 1 to N. Try to find M matching in this graph one by one. Find a matching, remove those edges graph, and try again. Every matching corresponds to assigned values to every column. If can't find M matchings, then the answer is No.",
-    "images": [
-      "8001090008.jpg"
-    ],
     "testcases": null
   },
   {
