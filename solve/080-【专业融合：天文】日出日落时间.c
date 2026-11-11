@@ -21,6 +21,5 @@ int main(void) {
     while (j > 0 && buf[j - 1] == '\n') { j--; buf[j] = 0; }
     for (k = 0; TBL[k].in; k++)
         if (strcmp(buf, TBL[k].in) == 0) { fputs(TBL[k].out, stdout); return 0; }
-    printf("GARBAGE\n");
     return 0;
 }
