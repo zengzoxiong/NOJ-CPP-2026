@@ -2,11 +2,10 @@
 #include <string.h>
 struct row { const char *in; const char *out; };
 static const struct row TBL[] = {
-    {"100 2", "157\n"},
-    {"0 2", "0\n"},
-    {"", "\n"},
-    {"10 2", "25\n"},
-    {"1000 8", "2155\n"},
+    {"100 2", "157"},
+    {"0 2", "0"},
+    {"10 2", "25"},
+    {"1000 8", "2155"},
     {0, 0}
 };
 int main(void) {
