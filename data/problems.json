@@ -1287,7 +1287,18 @@
     "images": [
       "8001080009.gif"
     ],
-    "testcases": null
+    "testcases": [
+      {
+        "no": 1,
+        "input": "5\n1 5 4 5\n2 5 10 1\n3 2 10 3\n6 4 9 4\n7 1 8 1",
+        "output": "X: #1 #2\nX: #2 #3\nn=2"
+      },
+      {
+        "no": 2,
+        "input": "2\n1 1 2 2\n3 3 4 4",
+        "output": "n=0"
+      }
+    ]
   },
   {
     "no": "078",
@@ -1398,7 +1409,23 @@
     "sampleoutput": "4",
     "hint": "",
     "source": "jxf",
-    "testcases": null
+    "testcases": [
+      {
+        "no": 1,
+        "input": "6 1\n3",
+        "output": "4"
+      },
+      {
+        "no": 2,
+        "input": "10 2\n4\n5",
+        "output": "0"
+      },
+      {
+        "no": 3,
+        "input": "100 5\n1\n23\n45\n67\n89",
+        "output": "608200469"
+      }
+    ]
   },
   {
     "no": "085",
@@ -1488,7 +1515,18 @@
     "sampleoutput": "0\n0\n1\n3\n8",
     "hint": "",
     "source": "UVA 580 - Critical Mass\nhttps://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=521\nhttps://zerojudge.tw/ShowProblem?problemid=a388\n\n解析\n【递推关系】\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法二\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nUVA 580 Critical Mass\nhttps://bbs.huaweicloud.com/blogs/312509\n递推+加打表法\nhttps://blog.51cto.com/u_15458280/4847607\n\n【动态规划A】\nUVA 580 - Critical Mass（简单DP）\nhttps://www.cnblogs.com/wafish/p/10465231.html\nhttps://github.com/thnkndblv/UVa-Online-Judge-Solutions/blob/master/580%20-%20Critical%20Mass/p580.cpp\nhttps://blog.csdn.net/mobius_strip/article/details/43851679\n\n【动态规划B】\nUVA580 Critical Mass 【思维+DP】\nhttps://blog.csdn.net/Sycamore_Ma/article/details/127064148\nUVA - 580 Critical Mass 四种方法（dp/暴力） 方法三\nhttps://blog.csdn.net/qq_44691917/article/details/107295478\nuva 580 - Critical Mass(dp)\nhttp://www.aspphp.online/bianchen/cyuyan/cjj/cjjrm/201701/210257.html\n递归法\nhttps://github.com/MaSteve/UVA-problems/blob/master/UVA00580.cpp",
-    "testcases": null
+    "testcases": [
+      {
+        "no": 1,
+        "input": "1\n2\n3\n4\n5\n0",
+        "output": "0\n0\n1\n3\n8"
+      },
+      {
+        "no": 2,
+        "input": "6\n7\n8\n9\n10\n0",
+        "output": "20\n47\n107\n238\n520"
+      }
+    ]
   },
   {
     "no": "091",
